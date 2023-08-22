@@ -1,0 +1,901 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/fab_icn.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/fgg8jal.css">
+    <!-- Bootstrap CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/slick-theme.css" rel="stylesheet">
+    <link href="./css/slick.css" rel="stylesheet">
+    <link href="./css/fonts.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
+    <link href="./css/responsive.css" rel="stylesheet">
+    <link href="./css/developer.css" rel="stylesheet">
+
+    <title>Accuris</title>
+</head>
+
+<body>
+<!-- header -->
+<header class="header">
+    <div class="hdr_cnct_wrp">
+        <div class="container hdr_container">
+            <div class="nav_wrap">
+                <a href="./index.html" class="hdr_logo">
+                    <svg width="152" height="24" viewBox="0 0 152 24"  xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_221_2494)">
+                        <path d="M54.8857 13.0075L54.4971 12.1605L53.4816 9.87818L52.7043 8.15307L50.3926 2.98888L50.3499 2.8819H47.1868L44.8549 8.15307L42.7161 13.0052L42.0242 14.5476V14.5587L40.5774 17.8262V17.8373L40.373 18.2987L40.2651 18.5349H43.5698L44.574 16.2103L51.7653 13.2749L53.9894 18.5349H57.3569L54.8857 13.0075ZM48.7953 6.33435L49.5726 8.1553L50.7723 10.9948L45.9669 12.9562V12.945L48.018 8.1553L48.7953 6.33435Z" />
+                        <path d="M92.5941 13.0075C92.4323 14.1531 92.0324 15.1182 91.363 15.954C90.6823 16.7898 89.8083 17.4116 88.6536 17.8708C87.5191 18.3098 86.2026 18.5349 84.7334 18.5349C83.4708 18.5349 82.2712 18.3433 81.1591 18.0112C80.0897 17.6791 79.1507 17.1865 78.3509 16.5112C77.5736 15.8693 76.9693 15.0758 76.5042 14.0572C76.3537 13.7251 76.2346 13.3819 76.1358 13.0075C75.9426 12.3009 75.8438 11.5409 75.8438 10.7251C75.8438 9.80463 75.9628 8.93539 76.2122 8.15307C76.2886 7.88561 76.3852 7.61815 76.5042 7.37075C76.9783 6.35218 77.5938 5.53866 78.3734 4.89676C79.1731 4.23257 80.1122 3.70879 81.1591 3.39676C82.2712 3.04237 83.4708 2.8819 84.7334 2.8819C86.2341 2.8819 87.5618 3.10701 88.6738 3.56838C89.7859 4.00745 90.7047 4.64936 91.3854 5.49631C91.9785 6.25634 92.3784 7.13673 92.5514 8.15307H89.5612C89.3568 7.70285 89.0872 7.2972 88.7615 6.94282C88.3413 6.48145 87.746 6.1293 87.0765 5.90419C86.3846 5.64787 85.6073 5.5186 84.7334 5.5186C83.6326 5.5186 82.6059 5.73257 81.6893 6.1293C80.8041 6.52603 80.1122 7.10329 79.6045 7.85441C79.5506 7.95025 79.4854 8.04609 79.4315 8.15307C79.0631 8.87075 78.8699 9.73777 78.8699 10.7251C78.8699 11.5921 79.0204 12.3544 79.3237 13.0075C79.409 13.2014 79.5079 13.393 79.6247 13.5647C80.11 14.3135 80.8019 14.893 81.687 15.3098C82.5834 15.7066 83.5764 15.9094 84.7311 15.9094C85.605 15.9094 86.3846 15.7913 87.0518 15.5349C87.7213 15.2875 88.2717 14.9554 88.7367 14.474C89.1254 14.0884 89.4264 13.5959 89.6533 13.0052H92.5896L92.5941 13.0075Z" />
+                        <path d="M74.0309 13.0074C73.8691 14.153 73.4468 15.1181 72.7885 15.9539C72.119 16.7897 71.2227 17.4116 70.0679 17.8707C68.9334 18.3098 67.6057 18.5349 66.1365 18.5349C64.9053 18.5349 63.7079 18.3521 62.5936 18.0201C61.5041 17.6768 60.5538 17.1842 59.7854 16.5201C59.0081 15.867 58.3926 15.0735 57.9275 14.0572C57.777 13.7251 57.6579 13.3707 57.5613 13.0074C57.3884 12.3856 57.2805 11.7214 57.2693 11.026C57.2581 10.9302 57.2581 10.8209 57.2581 10.7251C57.2581 9.81574 57.3884 8.96879 57.6242 8.19762V8.15527C57.7208 7.88781 57.8197 7.63149 57.9275 7.37295C58.3926 6.35438 59.0081 5.54086 59.7854 4.89895C60.5942 4.23476 61.5467 3.71099 62.5936 3.39895C63.7057 3.04457 64.9053 2.88409 66.1365 2.88409C67.3676 2.88409 68.5335 3.03343 69.4951 3.35438C69.6995 3.41901 69.8949 3.49256 70.0881 3.56834C70.9418 3.90044 71.6652 4.35066 72.2583 4.90787C72.4538 5.09063 72.6357 5.29346 72.8087 5.49628C73.4131 6.25631 73.8017 7.1367 73.9859 8.15304H70.9621C70.7778 7.70282 70.5195 7.29717 70.1848 6.94279C69.9039 6.64189 69.5467 6.38558 69.1491 6.18276C68.9446 6.06463 68.7267 5.96879 68.4908 5.89301C67.8214 5.64561 67.0216 5.51857 66.1365 5.51857C65.0446 5.51857 64.0427 5.73253 63.1126 6.12927C62.2387 6.526 61.5467 7.10326 61.039 7.85438C60.9739 7.95022 60.9199 8.04606 60.866 8.15304C60.6189 8.62332 60.4549 9.16047 60.3695 9.76002C60.3269 10.0698 60.3044 10.393 60.3044 10.7251C60.3044 11.5921 60.4437 12.3544 60.7357 13.0074C60.8211 13.2013 60.9199 13.393 61.0368 13.5646C61.5445 14.3135 62.2364 14.893 63.1103 15.3098C63.9955 15.7065 64.9997 15.9094 66.1342 15.9094C67.0194 15.9094 67.8191 15.7912 68.4886 15.5349C69.1581 15.2875 69.7085 14.9554 70.1511 14.474H70.1623C70.5509 14.0884 70.8632 13.5958 71.0901 13.0052H74.0264L74.0309 13.0074Z" />
+                        <path d="M111.025 2.8819V11.6456C111.025 12.6798 110.872 13.5424 110.589 14.3202C110.306 15.1182 109.938 15.7422 109.394 16.2615C108.873 16.8009 108.264 17.2534 107.59 17.5765C106.916 17.8997 106.134 18.1583 105.352 18.2875C104.526 18.4592 103.699 18.5461 102.809 18.5461C101.92 18.5461 101.093 18.4592 100.246 18.2875C99.4416 18.1583 98.7025 17.922 97.9633 17.5765C97.2669 17.2333 96.6581 16.8009 96.1594 16.2615C95.6382 15.7222 95.2473 15.0535 94.9844 14.2979C94.7238 13.5 94.571 12.6375 94.571 11.6456V2.8819H97.9836V11.4517C97.9836 12.5728 98.179 13.4354 98.5924 13.9971C99.0057 14.5565 99.5719 14.9242 100.266 15.1404C101.05 15.3566 101.897 15.4837 102.809 15.4837C103.789 15.4837 104.593 15.3767 105.332 15.1404C106.049 14.9042 106.592 14.5364 107.006 13.9971C107.397 13.4354 107.592 12.5728 107.592 11.4517V2.8819H111.027H111.025Z" />
+                        <path d="M132.727 3.83135L135.723 2.60773V18.5461H132.727V3.83135Z" />
+                        <path d="M151.899 14.0973C151.899 14.9554 151.665 15.711 151.222 16.4242C150.757 17.0951 150.061 17.639 149.153 18.0156C148.246 18.3923 147.084 18.5817 145.629 18.5817C144.53 18.5817 143.582 18.4569 142.757 18.2051C141.955 17.9332 141.259 17.5966 140.688 17.1999C140.138 16.8009 139.675 16.3618 139.295 15.8381C138.936 15.3143 138.705 14.8551 138.579 14.3938C138.453 13.9324 138.41 13.5357 138.431 13.1568L138.453 13.0097H141.389V13.1568C141.452 13.7028 141.663 14.1843 142.043 14.6033C142.402 15.0223 142.908 15.3789 143.564 15.6285C144.197 15.8581 144.937 15.9852 145.739 15.9852C146.478 15.9852 147.091 15.8804 147.576 15.7132C148.019 15.5461 148.358 15.3143 148.612 15.0022C148.843 14.708 148.951 14.3537 148.951 13.9324C148.951 13.5557 148.823 13.2415 148.572 13.0119C148.295 12.8024 147.875 12.6129 147.304 12.4458C146.714 12.2786 145.995 12.1092 145.024 11.9443C144.328 11.7972 143.631 11.63 142.787 11.3581C142.09 11.1285 141.434 10.8343 140.843 10.4777C140.295 10.1211 139.83 9.68204 139.471 9.13598C139.132 8.59214 138.963 7.94133 138.963 7.23033C138.963 6.39229 139.197 5.61666 139.659 4.96807C140.124 4.31948 140.801 3.79571 141.771 3.39675C142.679 3.02008 143.82 2.83063 145.15 2.83063C147.134 2.83063 148.697 3.29199 149.773 4.2125C150.852 5.15529 151.38 6.43241 151.337 8.00373V8.15084H148.486V8.00373C148.443 7.10329 148.084 6.43241 147.473 6.05574C146.839 5.65678 146.017 5.44727 145.024 5.44727C144.096 5.44727 143.377 5.59437 142.807 5.90864C142.236 6.20284 141.942 6.64192 141.942 7.3128C141.942 7.56243 142.027 7.79422 142.153 7.98367C142.279 8.17089 142.49 8.36034 142.829 8.52751C143.169 8.71696 143.631 8.86406 144.202 9.01116C144.793 9.17832 145.532 9.34549 146.419 9.51265C147.284 9.67981 147.938 9.8492 148.509 10.0364C149.162 10.2459 149.755 10.5178 150.261 10.8745C150.789 11.211 151.169 11.63 151.465 12.1739C151.762 12.7177 151.91 13.3685 151.91 14.1018L151.899 14.0973Z" />
+                        <path d="M129.402 6.96061C129.363 6.43461 129.229 5.95318 129.044 5.52302C128.948 5.31797 128.84 5.12629 128.721 4.94353C128.278 4.2459 127.586 3.70876 126.71 3.36552C125.866 3.04234 124.839 2.89301 123.673 2.89301H114.222V18.555H117.293V14.5966L121.175 13.0074H121.186L123.37 12.1181C123.695 12.0758 124.019 12.1293 124.32 12.2362C124.754 12.3856 125.131 12.6642 125.412 13.0074C125.834 13.4911 126.072 14.1241 126.081 14.766V18.5527H129.195V14.659C129.195 14.0037 129.087 13.4576 128.88 13.0074C128.37 12.049 127.802 11.3403 126.425 10.89L126.468 10.8677C127.809 10.286 129.577 9.36997 129.397 6.95616L129.402 6.96061ZM123.336 9.43907C123.141 9.51485 122.936 9.59954 122.741 9.67532L117.29 11.8952V5.58766H123.671C124.558 5.58766 125.412 5.7459 125.908 6.41455C126.382 7.08543 126.243 7.77636 125.866 8.15304C125.616 8.40044 125.27 8.6144 124.87 8.80831C124.848 8.81945 124.828 8.8306 124.816 8.84174C124.363 9.05571 123.844 9.24962 123.336 9.44353V9.43907Z" />
+                        <path d="M26.078 0H0V6.63299H26.078V0Z" />
+                        <path d="M26.078 6.633V13.3641L0 24V17.2667L26.078 6.633Z" />
+                        <path d="M32.8627 10.5312V21.2296L26.0781 24V13.3685L32.8627 10.5312Z" />
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_221_2494">
+                        <rect width="151.899" height="24" fill="white"/>
+                        </clipPath>
+                        </defs>
+                    </svg>    
+                </a>
+                <div class="menu_wrapper">
+                    <ul>
+                        <li class="mega_menu_trigger_wrp">
+                              <a href="javascript:void(0)" class="mega_menu_trigger nav_menu_item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Industries <i class="fa-solid fa-angle-down"></i>
+                              </a>
+                              <div class="mega_menu_sec">
+                                <div class="container hdr_container">
+                                    <div class="mega_menu_itm_wrp">
+                                        <div class="mga_mnu_itm">
+                                            <!-- <h6 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">workflow technology</h6> -->
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        Aerospace & Defense
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Automotive & Transportation
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="./engineering_workbench.html">
+                                                        Building Design & Construction
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mga_mnu_itm">
+                                            <!-- <h6 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">data & Analytics</h6> -->
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        Electronics
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Energy
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Government
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mga_mnu_itm">
+                                            <!-- <h6 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">research & insights</h6> -->
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        Manufacturing
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Medical Devices
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Other Industries
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mga_mnu_itm">
+                                            <a href="#" class="see_all_btn">See All Industries <i class="fa-solid fa-chevron-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                        </li>
+                        <li class="mega_menu_trigger_wrp">
+                              <a href="javascript:void(0)" class="mega_menu_trigger nav_menu_item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Solutions <i class="fa-solid fa-angle-down"></i>
+                              </a>
+                              <div class="mega_menu_sec">
+                                <div class="container hdr_container">
+                                    <div class="mega_menu_itm_wrp">
+                                        <div class="mga_mnu_itm">
+                                            <h6 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">workflow solutions</h6>
+                                            <ul>
+                                                <li>
+                                                    <a href="./engineering_workbench.html">
+                                                        Engineering Workbench
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Goldfire AI
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Parts Content Services
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Parts SaaS Service
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Parts XML Web Services
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mga_mnu_itm">
+                                            <h6 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">data & Analytics</h6>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        BOM Intelligence
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Construction Information Service
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Haystack Gold
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        OHSIS & Knowledge Workspace
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Parts Database
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Part Change Notices
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Engineering Sciences Data Unit (ESDU)
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mga_mnu_itm">
+                                            <h6 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">digital libraries</h6>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        Engineering Guides
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Journals, Reports, eBooks
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Knowledge Collections
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Patents
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Standards Subscriptions
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Standards Retail Store
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mga_mnu_itm">
+                                            <a href="#" class="see_all_btn">See All Solutions <i class="fa-solid fa-chevron-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                        </li>
+                        <li>
+                              <a href="javascript:void(0)" class="nav_menu_item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Newsroom
+                              </a>
+                        </li>
+                        <li>
+                              <a href="javascript:void(0)" class="nav_menu_item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Partners
+                              </a>
+                        </li>
+                        <li class="mega_menu_trigger_wrp">
+                              <a href="javascript:void(0)" class="mega_menu_trigger nav_menu_item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Contact Us <i class="fa-solid fa-angle-down"></i>
+                              </a>
+                              <div class="mega_menu_sec">
+                                <div class="container hdr_container">
+                                    <div class="mega_menu_itm_wrp contact_btn">
+                                        <div class="mga_mnu_itm">
+                                            <a href="#" class="cnct_mga_btn">Customer Care<i class="fa-solid fa-chevron-right"></i></a>
+                                        </div>
+                                        <div class="mga_mnu_itm">
+                                            <a href="#" class="cnct_mga_btn">Contact Sales<i class="fa-solid fa-chevron-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                        </li>
+                        <li>
+                              <a href="javascript:void(0)" class="nav_menu_item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Login
+                              </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search_btn_wrp">
+                    <button>
+                        <img src="./images/search_icon.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- header -->
+    <!-- banner start -->
+    <section class="banner">
+        <div class="container">
+            <div class="bnnr_inner">
+                <div class="bnnr_cont_wrp">
+                    <h1>Knowledge Built In.</h1>
+                    <div class="banner_cont">
+                        <div class="cont_wrp">
+                            <p>Accuris’ platforms and solutions embed critical, timely and accurate technical
+                                information
+                                directly into your workflows.</p>
+                        </div>
+
+                        <div class="cont_wrp">
+                            <p>
+                                For more than 60 years, leading R&D and engineering-intensive organizations have relied
+                                on
+                                us to
+                                mitigate risk, increase efficiency and accelerate the pace of complex projects and
+                                breakthrough
+                                innovations within their organizations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="vdo_wrp">
+                    <img src="images/player.png" alt="">
+                    <a href="" class="global_btn">Explore our solutions<i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- banner end  -->
+
+    <!-- Industrial section start-->
+    <section class="industrial">
+        <div class="def_img"></div>
+        <div class="left_shape"><img src="images/left2.png" alt="">
+            <div class="lft_age_shape"></div>
+        </div>
+        <!-- <div class="shape_right"><img src="images/bridge_img.png" alt=""></div> -->
+        <div class="container">
+            <div class="industral_cont_wrp">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="ind_con_left">
+                            <h2>Industrial Evolution</h2>
+                            <p>
+                                Built for Engineers, Architects, Builders, Operations and Logistics Professionals
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="shape_right"><img src="images/bridge_img.png" alt=""></div>
+                        <div class="ind_con_right">
+                            <p>
+                                We work with customers to identify opportunities to streamline their technical workflows
+                                throughout the product lifecycle. Our platforms give you unparalleled control over your
+                                mission
+                                critical technical knowledge and data.
+                            </p>
+                            <p>
+                                Drawing on over 400 global standards organization, our data are the most reliable and
+                                comprehensive, while our platforms are designed to help you turn data into insight, and
+                                insight
+                                into successful projects.
+                            </p>
+                            <a href="" class="global_btn">Explore our solutions<i
+                                    class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Industrial section end-->
+
+    <!-- Ind_tab sec -->
+    <section class="ind_tab">
+        <div class="container">
+            <ul class="ind_tab_wrp">
+                <li class="tab_box">
+                    <span class="tab_head">
+                        <h5>Technical Content</h5>
+                        <div class="tab_img">
+                            <img src="images/book.png" alt="">
+                        </div>
+                    </span>
+
+                    <p>
+                        We offer the world’s largest curated collection of technical knowledge including partnerships
+                        with over 400 global standards organizations.
+                    </p>
+                </li>
+
+                <li class="tab_box">
+                    <span class="tab_head">
+                        <h5>technologies</h5>
+                        <div class="tab_img">
+                            <img src="images/cpu-setting.png" alt="">
+                        </div>
+                    </span>
+
+                    <p>
+                        Our holistic solutions based in patented and proprietary technologies like cognitive search,
+                        machine learning and natural language processing turn insights into action and innovation.
+                    </p>
+                </li>
+
+                <li class="tab_box">
+                    <span class="tab_head">
+                        <h5>expertise</h5>
+                        <div class="tab_img">
+                            <img src="images/profile-tick.png" alt="">
+                        </div>
+                    </span>
+                    <p>
+                        We employ hundreds of data engineers and subject matter experts focused on maintaining the
+                        accuracy and completeness of our data - so you know you can count on it.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Ind_tab sec end -->
+
+    <!-- solution sec start -->
+    <section class="solution_sec">
+        <div class="container">
+            <div class="solution_box">
+                <div class="top_tier">
+                    <h6>Cross-Industry Solutions</h6>
+                    <p>Our core platforms are designed by and for technical professionals in industries where science
+                        and engineering are critical sources of success. Our solutions encompass a wide range of
+                        scientific, engineering, operations and logistics workflows, across industries.</p>
+                </div>
+                <div class="bottom_tier">
+                    <div class="bt_cont">
+                        <p>We provide specific solutions for:</p>
+                    </div>
+
+                    <div class="bt_btn_wrp">
+                        <a href="" class="tag_button tag_button_two">Aerospace & Defense <span><img src="images/airplane.png" alt=""></span></a>
+                        <a href="" class="tag_button tag_button_two">Automotive & Transportation <span><img src="images/car.png" alt=""></span></a>
+                        <a href="" class="tag_button tag_button_two">Building Design & Construction <span><img src="images/brush.png" alt=""></span></a>
+                        <a href="" class="tag_button tag_button_two">Electronics <span><img src="images/battery-charging.png" alt=""></span></a>
+                        <a href="" class="tag_button tag_button_two">Energy <span><img src="images/sun.png" alt=""></span></a>
+                        <a href="" class="tag_button tag_button_two">Government <span><img src="images/bank.png" alt=""></span></a>
+                        <a href="" class="tag_button tag_button_two">Manufacturing <span><img src="images/box.png" alt=""></span></a>
+                        <a href="" class="tag_button tag_button_two">Medical Devices <span><img src="images/health.png" alt=""></span></a>
+                        <a href="" class="tag_button tag_button_two">Other Industries <span><img src="images/folder-2.png" alt=""></span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- solution sec end -->
+    <!-- workflow_sec_start -->
+<section class="wrk_flw_sec">
+    <div class="container">
+        <div class="case_stdy_top_img">
+            <!-- <img src="./images/guiding-line.png" alt=""> -->
+        </div>
+        <div class="flw_ttle">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Workflow Solutions</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>Accuris workflow solutions connect the dots between fragmented information scattered across many sources, allowing technical professionals to make better, more informed decisions faster. We combine unparalleled access to technical content with proprietary Artificial Intelligence (AI) technologies that surface precise, relevant and timely answers from inside and outside our customers’ organizations.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flw_crd_cnct_wrp">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="crd_wrp">
+                        <div class="crd_itm">
+                            <div class="crd_tp_cnct">
+                                <h3>Engineering Workbench</h3>
+                                <p>Streamline standards management to reduce costs and risks with single-source access to engineering standards and technical knowledge.</p>
+                            </div>
+                            <div class="crd_btm_img_wrp">
+                                <div class="crd_btm_img_cncr">
+                                    <img src="./images/flw_img_1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="crd_wrp">
+                        <div class="crd_itm">
+                            <div class="crd_tp_cnct">
+                                <h3>Goldfire Cognitive Search</h3>
+                                <p>Find answers – not just data. Goldfire's out-of-the-box AI enables you to access external and organizational knowledge quickly and in context.</p>
+                            </div>
+                            <div class="crd_btm_img_wrp">
+                                <div class="crd_btm_img_cncr">
+                                    <img src="./images/flw_img_2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="crd_wrp">
+                        <div class="crd_itm">
+                            <div class="crd_tp_cnct">
+                                <h3>Parts Management Technology</h3>
+                                <p>Optimize your product lifecycle insights with a 360 view of your supply chain - bring depth, breadth, and accuracy to your parts data all in a single platform.</p>
+                            </div>
+                            <div class="crd_btm_img_wrp">
+                                <div class="crd_btm_img_cncr">
+                                    <img src="./images/flw_img_3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flw_btn_wrp">
+            <a href="javascript:void(0)" class="solid_btn">Find out more about our complete suite of workflow solutions<i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+    </div>
+</section>
+<!-- workflow_sec_end -->
+
+
+<!-- data_sec_start -->
+<section class="wrk_flw_sec data_sec">
+    <div class="container">
+        <div class="flw_ttle">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Data & Knowledge Solutions</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>Accuris data solutions synthesize critical information in one place, giving technical professionals confidence in the relevance, timeliness and completeness of their data queries on technical topics. By consolidating all of the relevant information for a specific type of technical work in one place, we help to eliminate the risks associated with incomplete, out-of-date or contradictory data that cause project delays, rework and waste.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flw_crd_cnct_wrp">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="crd_wrp">
+                        <div class="crd_itm">
+                            <div class="crd_tp_cnct">
+                                <h3>Electronic Parts Management Solutions</h3>
+                                <p>Develop a healthy electronic components supply chain that boosts productivity, cuts costs and mitigates risk.</p>
+                            </div>
+                            <div class="crd_btm_img_wrp">
+                                <div class="crd_btm_img_cncr">
+                                    <img src="./images/flw_img_4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="crd_wrp">
+                        <div class="crd_itm">
+                            <div class="crd_tp_cnct">
+                                <h3>Standards, Codes and Specifications for Engineering Workbench</h3>
+                                <p>Discover an online platform that streamlines and speeds up the process of finding and managing standards and related information, whether for a small team or enterprise-wide access.</p>
+                            </div>
+                            <div class="crd_btm_img_wrp">
+                                <div class="crd_btm_img_cncr">
+                                    <img src="./images/flw_img_5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="crd_wrp">
+                        <div class="crd_itm">
+                            <div class="crd_tp_cnct">
+                                <h3>Knowledge Collections</h3>
+                                <p>Tap into trusted applied technical reference sources to accelerate engineering results.</p>
+                            </div>
+                            <div class="crd_btm_img_wrp">
+                                <div class="crd_btm_img_cncr">
+                                    <img src="./images/flw_img_6.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flw_btn_wrp">
+            <a href="javascript:void(0)" class="solid_btn">Find out more about our complete suite of workflow solutions<i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+    </div>
+</section>
+<!-- data_sec_end -->
+<!-- start specificSolutionsect -->
+<section class="specificSolutionsect">
+    <div class="container">
+        <!-- start industrybox -->
+        <div class="industrybox">
+            <div class="industryheading">
+                <h2>Industry-Specific Solutions</h2>
+            </div>
+            <div class="industrypara">
+                <p>Accuris data solutions synthesize critical information in one place, giving technical professionals
+                    confidence in the relevance, timeliness and completeness of their data queries on technical topics.</p>
+
+                    <p>By consolidating all of the relevant information for a specific type of technical work in one
+                        place,
+                    we help to eliminate the risks associated with incomplete, out-of-date or contradictory data that
+                    cause project delays, rework and waste.</p>
+            </div>
+        </div>
+        <!-- end industrybox -->
+
+        <!-- start solutionsect -->
+        <ul class="solutionsect">
+            <li>
+                <figure>
+                    <img src="images/solutions1.png" alt=""/>
+                </figure>
+                <div class="solution_cont">
+                    <h4>Haystack Gold</h4>
+                    <p>Drive supply chain savings, efficiency and risk mitigation with the leading defense parts and
+                        logistics management system for government, military, and A&D supply chain.</p>
+                        
+                </div>
+                <div class="solutbtn">
+                    <a href="#" class="tag_button">Government <img src="images/btni1.svg" alt="" /></a>
+                </div>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/solutions2.png" alt="" />
+                </figure>
+                <div class="solution_cont">
+                    <h4>Construction Information Service (CIS)</h4>
+                    <p>Master your projects with one-stop, definitive construction information for the UK and Republic
+                        of Ireland. ​</p>
+                    
+                </div>
+                <div class="solutbtn">
+                    <a href="#" class="tag_button">Building & Construction <img src="images/btni2.svg" alt="" /></a>
+                </div>
+                
+            </li>
+            <li>
+                <figure>
+                    <img src="images/solutions3.png" alt="" />
+                </figure>
+                <div class="solution_cont">
+                    <h4>Health</h4>
+                    <p>Lorem ipsum dolor sit amet consecutor adipiscing elit anon.</p>
+                </div>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/solutions4.png" alt="" />
+                </figure>
+                <div class="solution_cont">
+                    <h4>Aerospace</h4>
+                    <p>Lorem ipsum dolor sit amet consecutor adipiscing elit anon.</p>
+                    
+                </div>
+                <div class="solutbtn">
+                    <a href="#" class="tag_button">Other Industries <img src="images/btni3.svg" alt="" /></a>
+                </div>
+            </li>
+        </ul>
+        <div class="redbtnsect">
+            <a href="#" class="solid_btn">Find out more about all of our industry solutions<i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <!-- end solutionsect -->
+    </div>
+</section>
+<!-- end specificSolutionsect -->
+
+<!-- start standardsStoresect -->
+<section class="standardsStoresect">
+    <div class="maincontant sheapmain">
+        
+        <div class="container">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svgsheap" viewBox="0 0 709 514" fill="none">
+                <path d="M114.058 1H1.62793V250.573L612.859 512.931H707.02V252.981L114.058 1Z" fill="white"
+                    stroke="#1000E8" stroke-width="2" />
+            </svg>
+            <img src="images/svgroup2.png" class="svgsheap2" alt="" />
+            <div class="sheap2">
+                <div class="rowflex">
+                    <div class="standarcontbox boxlfrbdr">
+                        <div class="standarflex">
+                            <div class="standarbox">
+                                <h4>500+</h4>
+                                <h6>Years Combined AI Experience</h6>
+                                <p>Our team members are builders at heart with experience creating barrier breaking tech​</p>
+                            </div>
+                            <div class="standarbox">
+                                <h4>6k+</h4>
+                                <h6>Global Customers</h6>
+                                <p>Aerospace & Defense, Energy, Architecture, Construction, Transportation to name a few​</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="standarcontbox boxlfrbdr2">
+                        <div class="standarflex">
+                            <div class="standarbox">
+                                <h4>400+</h4>
+                                <h6>Partnerships</h6>
+                                <p>We maintain partnerships with over 400 global standards organizations</p>
+                            </div>
+                            <div class="standarbox">
+                                <h4>650k+</h4>
+                                <h6>Engineers Rely On Us</h6>
+                                <p>As transformative business partners to provide solutions optimized for their organization
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end standardsStoresect -->
+
+<!-- start standardssect -->
+<!-- <section class="standardssect">
+    <div class="maincontant">
+    <div class="standflex">
+        <div class="stand1">
+            <img src="images/stand1.png" class="standimg1" alt="" />
+        </div>
+        <div class="stand2">
+            <img src="images/stand2.png" class="standimg2" alt="" />
+            <div class="standtextbox2">
+                <div class="standwhite">
+                    <h2>Standards Store</h2>
+                    <p>A one-stop shop for all your engineering specifications, standards, manuals and technical
+                        publications needs, without the need to deploy specific software or workflow solutions.</p>
+                    <a href="" class="global_btn">Explore our solutions <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                
+                <img src="images/extra.png" alt=""/>
+            </div>
+        </div>
+    </div>
+    </div>
+</section> -->
+<section class="industrial_2">
+    <div class="left_shape"><img src="images/stand2.png" alt="">
+        <div class="lft_age_shape"></div>
+    </div>
+    <!-- <div class="shape_right"><img src="images/wind_ground.png" alt=""></div> -->
+    <div class="container">
+        <div class="industral_cont_wrp">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="shape_right"><img src="images/wind_ground.png" alt=""></div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="ind_con_left">
+                        <h2>Standards Store</h2>
+                        <p>A one-stop shop for all your engineering specifications, standards, manuals and technical
+                            publications needs, without the need to deploy specific software or workflow solutions.
+                        </p>
+                        <a href="" class="global_btn">Explore our solutions <i
+                                class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</section>
+<!-- end standardssect -->
+
+<!-- case study start -->
+<section class="case_study">
+    <div class="container">
+        <div class="case_stdy_top_img">
+            <!-- <img src="./images/guiding-line.png" alt=""> -->
+        </div>
+        <div class="case_stdy_hdng">
+            <h2>Case Studies</h2>
+        </div>
+        <div class="case_study_inr">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="case_std_item">
+                        <div class="case_item_img">
+                            <img src="./images/case_study_one.png" alt="">
+                          <h6>apr 10, 2023</h6>
+                          <h4>Product Support for Innovative and Eco-Efficient Business Jets</h4>
+                        </div>
+                        <div class="case_study_inr_btn_wrap">
+                            <a href="javascript:void(0)" class="tag_button">Aerospace & Defense<img src="./images/airplane.svg"></a>
+                            <a href="javascript:void(0)" class="tag_button">Automotive & Transportation<img src="./images/car.svg"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="case_std_item">
+                        <div class="case_item_img">
+                            <img src="./images/case_study_two.png" alt="">
+                          <h6>feb 21, 2023</h6>
+                          <h4>European Auto Manufacturer Saves Millions and Years Diagnosing Recalls</h4>
+                        </div>
+                        <div class="case_study_inr_btn_wrap">
+                            <a href="javascript:void(0)" class="tag_button">Automotive & Transportation<img src="./images/car.svg"></a>
+                            <a href="javascript:void(0)" class="tag_button">Government<img src="./images/bank.svg"></a>
+                            <a href="javascript:void(0)" class="tag_button">Manufacturing<img src="./images/box.svg"></a>
+                            <a href="javascript:void(0)" class="tag_button">Other Industries<img src="./images/folder-2.svg"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="case_std_item">
+                        <div class="case_item_img">
+                            <img src="./images/case_study_three.png" alt="">
+                          <h6>sep 23, 2022</h6>
+                          <h4>Global Tech Manufacturer Reimagines QA with AI</h4>
+                        </div>
+                        <div class="case_study_inr_btn_wrap">
+                            <a href="javascript:void(0)" class="tag_button">Manufacturing<img src="./images/folder-2.svg"></a>
+                            <a href="javascript:void(0)" class="tag_button">Electronics<img src="./images/battery-charging.svg"></a>
+                            <a href="javascript:void(0)" class="tag_button">Other Industries<img src="./images/folder-2.svg"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="case_std_item">
+                        <div class="case_item_img">
+                            <img src="./images/case_study_four.png" alt="">
+                          <h6>jun 30, 2022</h6>
+                          <h4>Lessons from Nature: Innovative Breakthrough in Solar Engineering</h4>
+                        </div>
+                        <div class="case_study_inr_btn_wrap">
+                            <a href="javascript:void(0)" class="tag_button">Energy<img src="./images/sun.svg"></a>
+                            <a href="javascript:void(0)" class="tag_button">Electronics<img src="./images/battery-charging.svg"></a>
+                            <a href="javascript:void(0)" class="tag_button">Manufacturing<img src="./images/folder-2.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="case_btn_wrap">
+                <a href="javascript:void(0)" class="global_btn">See more Case Studies<i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- case study end -->
+<!-- ftr start -->
+<footer class="ftr">
+<div class="container">
+<div class="ftr_inr_one">
+    <div class="ftr_logo">
+        <img src="../newhtml/images/ftr_logo.png" alt="">
+    </div>
+        <ul class="scl_icon">
+            <li><a href="javascript:void(0)"><img src="./images/linkedin.png" alt=""></a></li>
+            <li><a href="javascript:void(0)"><img src="./images/facebook.png" alt=""></a></li>
+            <li><a href="javascript:void(0)"><img src="./images/X_logo_2023 1.png" alt=""></a></li>
+        </ul>
+</div>
+<div class="ftr_inr_two">
+<ul>
+    <li><a href="javascript:void(0)">Industries</a></li>
+    <li><a href="javascript:void(0)">Solutions</a></li>
+    <li><a href="javascript:void(0)">Articles</a></li>
+    <li><a href="javascript:void(0)">Careers & Culture</a></li>
+    <li><a href="javascript:void(0)">Contact Us</a></li>
+    <li><a href="javascript:void(0)">Customer Care</a></li>
+    <li><a href="javascript:void(0)">Speak with an Expert</a></li>
+    <li><a href="javascript:void(0)">Sitemap</a></li>
+</ul>
+</div>
+<div class="ftr_inr_three">
+    <ul>
+        <li><a href="javascript:void(0)">Terms of Use</a></li>
+        <li><a href="javascript:void(0)">Cookie Notice</a></li>
+        <li><a href="javascript:void(0)">Privacy Policy</a></li>
+        <li><a href="javascript:void(0)">Do Not Sell My Personal Information</a></li>
+        <li><a href="javascript:void(0)">Cookie Settings</a></li>
+    </ul>
+    <p>© 2023 Accuris</p>
+</div>
+</div>
+</footer>
+<!-- ftr end -->
+    <script src="https://kit.fontawesome.com/88e698a514.js" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/bootstarp_min.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <script src="./js/jquery.countup.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>
