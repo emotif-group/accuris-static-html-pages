@@ -483,7 +483,7 @@ h3{
 .banner{
   background-color: var(--blue);
   /* min-height: 747px; */
-  padding-bottom: 350px;
+  padding-bottom: 110px;
   position: relative;
 }
 .banner .container{
@@ -492,14 +492,15 @@ h3{
 .banner .container::after{
   content: '';
   position: absolute;
-  background-image: url(../images/vec_1.png);
+  background-image: url(../images/Group\ 2.svg);
   background-repeat: no-repeat;
-  width: 410px;
-  height: 300px;
-  left: -35%;
-  bottom: -432px;
+  width: 100%;
+  height: 500px;
+  left: -89%;
+  /* bottom: -455px; */
   z-index: 0;
   background-size: 100% 100%;
+  margin-top: -227px;
 }
 .banner .container::before {
   content: '';
@@ -511,15 +512,15 @@ h3{
   top: -126px;
   right: -210px;
 }
-/* .banner::after {
+.banner::after {
 
-} */
+}
 .bnnr_inner{
   position: relative;
+  margin-bottom: 82px;
 }
 .bnnr_cont_wrp{
-  padding-top: 110px;
-  padding-left: 80px;
+  padding: 110px 0 83px 80px;
 }
 
 .banner_cont{
@@ -566,21 +567,25 @@ line-height: 27px;
 
 .vdo_wrp{
   position: absolute;
-  max-width: 1024px;
-  left: 5%;
+  max-width: 1084px;
+  left: 0;
+  right: 0;
   border: 33px solid var(--white);
   border-bottom: 56px solid var(--white);
-  margin-top: 60px;
+  /* margin-top: 60px; */
   box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.4);
   z-index: 1;
   box-shadow: 0px -20px 20px rgba(0, 0, 0, 0.10);
+  margin: 0 auto;
+  min-height: 520px;
 }
 
 .vdo_wrp .global_btn{
   position: absolute;
   left: 50%;
-  top: 104%;
   transform: translateX(-50%);
+  bottom: 0;
+  margin-bottom: -94px;
 }
 .global_btn span{
   margin-left: 15px;
@@ -591,7 +596,7 @@ line-height: 27px;
 /* Industrial section start */
 .industrial {
   /* min-height: 925px; */
-  margin-top: 612px;
+  margin-top: 760px;
   position: relative;
   padding-top: 209px;
   padding-bottom: 93px;
@@ -647,10 +652,10 @@ line-height: 27px;
   background-color: var(--white);
   padding: 40px 50px 20px 40px;
   margin-left: auto;
-  margin-right: 33px;
+  margin-right: 27px;
   position: relative;
   z-index: 1;
-
+margin-top: 2px;
 }
 
 .ind_con_left::before {
@@ -687,11 +692,11 @@ line-height: 27px;
 
 .industrial .industral_cont_wrp .shape_right {
   position: absolute;
-  top: -470px;
+  top: -450px;
   /* left: 0; */
   right: -570px;
   width: 100%;
-  height: 525px;
+  height: 490px;
   -webkit-mask-image: url(../images/sp_4.svg);
   mask-image: url(../images/sp_4.svg);
   -webkit-mask-repeat: no-repeat;
@@ -710,11 +715,11 @@ line-height: 27px;
 }
 
 .industrial .lft_age_shape {
-  height: 188px;
-  width: 44px;
+  height: 192px;
+  width: 40px;
   background-color: var(--white);
   position: absolute;
-  top: 21px;
+  top: 20px;
   right: 0;
 }
 
@@ -728,7 +733,7 @@ line-height: 27px;
   border-bottom: 50px solid transparent;
   width: 100%;
   height: 112px;
-  top: -54px;
+  top: -50px;
   left: 0;
 }
 
@@ -867,7 +872,11 @@ color: var(--black);
 .case_study_inr_btn_wrap {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  /* gap: 10px; */
+}
+.case_study_inr_btn_wrap a{
+  margin: 0 5px;
+  margin-bottom: 10px;
 }
 /* case study sec end*/
 /* footer start */
@@ -892,6 +901,9 @@ margin-right: 15px;
 .ftr_inr_two ul{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  max-width: 664px;
+  margin: 0 auto;
 }
 .ftr_inr_two ul li:not(:last-child){
 padding-right: 20px;
@@ -1068,16 +1080,19 @@ position: relative;
 .solutionsect {
   display: flex;
   flex-wrap: wrap;
-  gap: 0px 20px;
+  /* gap: 0px 20px; */
   justify-content: center;
   margin-top: 30px;
 }
 .solutionsect li {
-  flex: 0 0 23.6%;
+  flex: 0 0 auto;
   background: var(--stone-light);
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  width: calc(25% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .solutionsect li figure img {
   width: 100%;
@@ -1132,7 +1147,7 @@ position: relative;
   margin-bottom: 40px;
   position: relative;
   width: 100%;
-  padding-bottom: 29px;
+  padding-bottom: 175px;
 }
 .pathimg1 {
   width: 100%;
@@ -1142,7 +1157,7 @@ position: relative;
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
-  top: -44px;
+  top: 78px;
   align-items: flex-start;
 }
 .standarcontbox {
@@ -1190,18 +1205,18 @@ position: relative;
 .maincontant .container {
   position: relative;
 }
-.maincontant.sheapmain .container::before {
-    content: "";
-    position: relative;
-    left: -19.8%;
-    top: 0;
-    background-image: url(../images/Pattern.png);
-    max-width: 20%;
-    height: 74px;
-    background-position: center;
-    background-size: 100% 100%;
-    display: block;
-}
+/* .maincontant.sheapmain .container::before {
+  content: "";
+  position: relative;
+  left: -37.8%;
+  top: 0;
+  background-image: url(../images/Pattern.png);
+  max-width: 38%;
+  height: 148px;
+  background-position: center;
+  background-size: 100% 100%;
+  display: block;
+} */
 .standarcontbox.boxlfrbdr2 {
   margin-top: 258px;
   background-image: url(../images/text-area2.png);
@@ -1211,11 +1226,12 @@ position: relative;
 }
 
 .svgsheap2 {
-    position: absolute;
-    right: -554px;
-    bottom: -165px;
-    max-width: 570px;
-    fill-opacity: 0;
+  position: absolute;
+  right: -719px;
+  bottom: -347px;
+  max-width: 100%;
+  fill-opacity: 0;
+  height: 533px;
 }
 .svgsheap3 {
     position: absolute;
@@ -1236,12 +1252,12 @@ position: relative;
 }
 
 .svgsheap {
-    position: absolute;
-    left: -44.7%;
-    top: -313px;
-    width: 46% !important;
-    fill-opacity: 0;
-    z-index: -1;
+  position: absolute;
+  left: -54.7%;
+  top: -313px;
+  width: 56% !important;
+  fill-opacity: 0;
+  z-index: -1;
 }
 /* end standardsStoresect */
 /* start standardssect */
@@ -1328,7 +1344,6 @@ position: relative;
   justify-content: space-between;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--black);
-  align-items: center;
 }
 
 .ind_tab_wrp {
@@ -2115,3 +2130,22 @@ main .sections_wrap section:not(:first-child){
   margin-top: 30px;
 }
 
+.tag_button_two span img{
+  width: 20px;
+}
+
+
+.maincontant .container::after{
+  content: '';
+  position: absolute;
+  /* left: 0; */
+  /* right: 0; */
+  background-image: url(../images/behind-numbers_new.png);
+  background-repeat: no-repeat;
+  height: 522px;
+  width: 100%;
+  top: unset;
+  /* background-color: red; */
+  left: -693px;
+  bottom: 418px;
+}

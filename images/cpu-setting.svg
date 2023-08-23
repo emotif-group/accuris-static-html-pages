@@ -1,0 +1,14 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M30 14.4C30 8.4 27.6 6 21.6 6H14.4C8.4 6 6 8.4 6 14.4V21.6C6 27.6 8.4 30 14.4 30" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24.525 12C23.7 10.95 22.32 10.5 20.25 10.5H15.75C12 10.5 10.5 12 10.5 15.75V20.25C10.5 22.32 10.95 23.7 11.985 24.525" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.0146 6V3" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 6V3" stroke="black" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 6V3" stroke="black" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30 12H33" stroke="black" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.0146 30V33" stroke="black" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 12H6" stroke="black" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 18H6" stroke="black" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 24H6" stroke="black" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25.0652 27.8847C26.3824 27.8847 27.4502 26.8169 27.4502 25.4997C27.4502 24.1825 26.3824 23.1147 25.0652 23.1147C23.748 23.1147 22.6802 24.1825 22.6802 25.4997C22.6802 26.8169 23.748 27.8847 25.0652 27.8847Z" stroke="black" stroke-width="2.25" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.1152 26.19V24.795C17.1152 23.97 17.7902 23.295 18.6152 23.295C20.0552 23.295 20.6402 22.275 19.9202 21.03C19.5002 20.31 19.7552 19.38 20.4752 18.975L21.8402 18.18C22.4702 17.805 23.2802 18.03 23.6552 18.66L23.7452 18.81C24.4652 20.055 25.6352 20.055 26.3552 18.81L26.4452 18.66C26.8202 18.03 27.6302 17.82 28.2602 18.18L29.6252 18.975C30.3452 19.395 30.6002 20.31 30.1802 21.03C29.4602 22.275 30.0452 23.295 31.4852 23.295C32.3102 23.295 32.9852 23.97 32.9852 24.795V26.19C32.9852 27.015 32.3102 27.69 31.4852 27.69C30.0452 27.69 29.4602 28.71 30.1802 29.955C30.6002 30.675 30.3452 31.605 29.6252 32.01L28.2602 32.805C27.6302 33.18 26.8202 32.955 26.4452 32.325L26.3552 32.175C25.6352 30.93 24.4652 30.93 23.7452 32.175L23.6552 32.325C23.2802 32.955 22.4702 33.165 21.8402 32.805L20.4752 32.01C19.7552 31.59 19.5002 30.675 19.9202 29.955C20.6402 28.71 20.0552 27.69 18.6152 27.69C17.7902 27.705 17.1152 27.03 17.1152 26.19Z" stroke="black" stroke-width="2.25" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

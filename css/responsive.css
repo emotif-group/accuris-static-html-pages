@@ -52,7 +52,31 @@
 
 }
 @media(max-width:1199px){
-
+    .industrial .industral_cont_wrp .shape_right{
+        top: -469px;
+        /* left: 0; */
+        right: -479px;
+        width: 100%;
+        height: 525px;
+    }
+    .industrial .lft_age_shape{
+        height: 156px;
+    }
+    .ind_con_left{
+        margin-right: 28px;
+        margin-top: -33px;
+    }
+    /* .industrial .container::after{
+        left: -566px;
+        bottom: -329px;
+        width: 732px;
+    height: 420px;
+    } */
+    .industrial .container::after{
+        left: -669px;
+        bottom: -371px;
+        height: 495px;
+    }
 }
 
 @media(max-width:991px) {
