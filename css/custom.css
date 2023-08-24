@@ -492,7 +492,7 @@ h3{
 .banner .container::after{
   content: '';
   position: absolute;
-  background-image: url(../images/Group\ 2.svg);
+  background-image: url(../images/Group_2.svg);
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
@@ -612,13 +612,13 @@ line-height: 27px;
 .industrial .container::after {
   content: '';
   position: absolute;
-  background-image: url(../images/vec_2.png);
-  width: 739px;
-  height: 500px;
+  background-image: url(../images/stoke_box_blk_W.svg);
+  width: 100%;
+  height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
-  left: -676px;
-  bottom: -374px;
+  left: -590px;
+  bottom: -341px;
 }
 
 .left_shape {
@@ -647,27 +647,31 @@ line-height: 27px;
 }
 
 .ind_con_left {
-  max-width: 521px;
+  max-width: 523px;
   min-height: 206px;
   background-color: var(--white);
-  padding: 40px 50px 20px 40px;
+  padding: 40px 50px 50px 40px;
   margin-left: auto;
-  margin-right: 27px;
+  margin-right: -2px;
   position: relative;
   z-index: 1;
-margin-top: 2px;
+  margin-top: 2px;
+  left: -29px;
 }
 
-.ind_con_left::before {
+.ind_con_left::after {
   content: "";
-  position: absolute;
-  background-image: url(../images/extra.png);
-  width: 100%;
-  height: 46px;
-  left: 0;
-  top: 99.4%;
-  background-repeat: no-repeat;
-  background-size: auto;
+    position: absolute;
+    background-image: url(../images/Curve.svg);
+    width: 521px;
+    height: 47px;
+    left: 0px;
+    top: unset;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    right: 0px;
+    bottom: 0;
+    margin-bottom: -47px;
 }
 
 .ind_con_left p {
@@ -1197,10 +1201,10 @@ position: relative;
   color: var(--white);
 }
 .standarcontbox.boxlfrbdr {
-  background: url(../images/text-area.png);
+  background: url(../images/Textarea_left.svg);
   background-size: 100% 100%;
   padding: 40px 20px;
-  margin-top: 4px;
+  margin-top: 0px;
 }
 .maincontant .container {
   position: relative;
@@ -1219,19 +1223,23 @@ position: relative;
 } */
 .standarcontbox.boxlfrbdr2 {
   margin-top: 258px;
-  background-image: url(../images/text-area2.png);
+  background-image: url(../images/Textarea_Right.svg);
   background-size: 100% 100%;
   padding: 40px 20px 60px;
-  margin-left: -2px;
+  margin-left: -1px;
 }
-
+.boxlfrbdr2{
+  position: relative;
+  top: -6px;
+  left: -7px;
+}
 .svgsheap2 {
   position: absolute;
-  right: -719px;
-  bottom: -347px;
-  max-width: 100%;
-  fill-opacity: 0;
-  height: 533px;
+    right: -865px;
+    bottom: -487px;
+    max-width: 100%;
+    fill-opacity: 0;
+    height: 734px;
 }
 .svgsheap3 {
     position: absolute;
@@ -1344,6 +1352,7 @@ position: relative;
   justify-content: space-between;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--black);
+  align-items: center;
 }
 
 .ind_tab_wrp {
@@ -1793,9 +1802,9 @@ display: block;
 .wfi_list li::before {
   content: '';
   position: absolute;
-  width: 15px;
-  height: 15px;
-  background-image: url(../images/tick-circle.png);
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/tick-circle_new.svg);
   background-repeat: no-repeat;
   left: 0;
   top: 50%;
@@ -2051,10 +2060,11 @@ main .sections_wrap section:not(:first-child){
   min-height: 206px;
   background-color: var(--white);
   padding: 40px 50px 20px 40px;
-  margin-left: 69px;
+  margin-left: 96px;
   margin-right: 33px;
   position: relative;
   z-index: 1;
+  margin-top: -1px;
 }
 
 .industrial_2 .ind_con_left::before {
@@ -2140,12 +2150,12 @@ main .sections_wrap section:not(:first-child){
   position: absolute;
   /* left: 0; */
   /* right: 0; */
-  background-image: url(../images/behind-numbers_new.png);
+  background-image: url(../images/Group_3.svg);
   background-repeat: no-repeat;
   height: 522px;
   width: 100%;
   top: unset;
   /* background-color: red; */
-  left: -693px;
+  left: -797px;
   bottom: 418px;
 }
