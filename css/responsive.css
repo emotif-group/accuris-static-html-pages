@@ -9,12 +9,12 @@
     .container {
         max-width: 1140px;
     }
+   
+}
+@media (min-width: 1320px){
     .hdr_container{
         max-width: 1300px;
     }
-}
-@media (min-width: 1300px){
-
 }
 @media (min-width: 1200px){
  
@@ -52,6 +52,17 @@
 
 }
 @media(max-width:1199px){
+    /* hdr start */
+    .menu_wrapper>ul>li:nth-last-child(2){
+        margin-right: 20px;
+    }
+    .menu_wrapper>ul>li:not(:last-child) {
+        margin-right: 20px;
+    }
+    .menu_wrapper{
+        padding: 0 25px 0 50px;
+    }
+    /* hdr end */
     .industrial .industral_cont_wrp .shape_right{
         top: -469px;
         /* left: 0; */
