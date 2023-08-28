@@ -50,8 +50,23 @@ $(function() {
       if(sTop >= offset && sTop < offset + height) {
         link.removeClass('active_one');
         $('#navo_bar').find('[data-scroll="' + id + '"]').addClass('active_one');
-      }
+      }  
     });
   }
   scrNav();
+});
+
+
+function imgWindow() {
+  var x = document.getElementById("fgt").autoplay;
+  document.getElementById('fwe').style.display='none'; 
+  document.getElementById('fgt').style.display='block';
+  document.getElementById("fgt").play();
+}
+
+$(document).ready(function(){
+  $("#play").click(function(){
+    $("#remove").hide();
+    $("#add").show();
+  });
 });
