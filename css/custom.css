@@ -1836,12 +1836,12 @@ main section.solution_sec_bdr {
 }
 .ew_banner h1 {
   color: var(--black);
-  font-size: 59px;
-  font-style: normal;
-  line-height: 59px;
+  /* font-size: 59px; */
+  /* font-style: normal; */
+  /* line-height: 59px; */
   margin-top: 30px;
-  font-family: var(--gibson);
-  font-weight: 500;
+  /* font-family: var(--gibson); */
+  /* font-weight: 500; */
   padding-right: 32px;
 }
 
@@ -1938,7 +1938,7 @@ main section.solution_sec_bdr {
 /* aside_tab_nav end */
 
 /* aside main */
-.ss_cont h2 {
+/* .ss_cont h2 {
   color: var(--black);
   font-family: var(--gibson);
   font-size: 40px;
@@ -1946,7 +1946,7 @@ main section.solution_sec_bdr {
   font-weight: 500;
   line-height: 50px;
   font-weight: 500;
-}
+} */
 
 .ss_cont p {
   margin-top: 30px;
