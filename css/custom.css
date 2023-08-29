@@ -154,7 +154,6 @@ h1 {
   line-height: 100px;
   color: var(--white);
   font-family: var(--gibson);
-  text-transform: capitalize;
   font-weight: 500;
 }
 
@@ -163,7 +162,7 @@ h2 {
   line-height: 64px;
   color: var(--black);
   font-family: var(--gibson);
-  text-transform: capitalize;
+
 }
 
 h3 {
@@ -171,8 +170,10 @@ h3 {
   line-height: 30px;
   color: var(--black);
   font-family: var(--gibson);
-  text-transform: capitalize;
   font-weight: 500;
+}
+.t_capitalize{
+  text-transform: capitalize;
 }
 
 .global_btn {
@@ -2424,3 +2425,8 @@ margin-left: 200px;
 .menu_wrapper li.active > a{
   color: var(--sky);
 }         
+
+
+.case_study_new_inr {
+  padding-top: 100px;
+}
