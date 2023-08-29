@@ -1663,7 +1663,7 @@ transform: translateX(-50%);
 }
 
 .case_study_new_item .case_study_inr_btn_wrap {
-  padding-bottom: 20px;
+  padding-bottom: 5px;
 }
 
 .case_stdy_new_hdng {
@@ -1755,7 +1755,7 @@ main section.solution_sec_bdr {
 
 .work_flow_inr_hdng {
   display: flex;
-  align-items: center;
+  align-items: end;
   border-bottom: 1px solid var(--black);
   padding-bottom: 20px;
 }
@@ -1808,7 +1808,6 @@ main section.solution_sec_bdr {
 .navigation li:last-child::after {
   display: none;
 }
-
 .navigation li::after {
   content: '';
   position: absolute;
@@ -1819,7 +1818,6 @@ main section.solution_sec_bdr {
   top: 45%;
   transform: translateY(-50%);
 }
-
 .navigation a {
   font-family: var(--industry);
   font-size: 14px;
@@ -1830,15 +1828,12 @@ main section.solution_sec_bdr {
   color: var(--gray);
 
 }
-
 .navigation span {
   margin: 0 5px;
 }
-
 .ew_banner .container {
   position: relative;
 }
-
 .ew_banner h1 {
   color: var(--black);
   font-size: 59px;
@@ -1877,9 +1872,7 @@ main section.solution_sec_bdr {
   /* top: 273px; */
   margin-top: -235px;
 }
-
 /*EW banner end */
-
 /* aside_tab_nav */
 .aside_tab {
   margin-top: 28px;
@@ -1917,7 +1910,6 @@ main section.solution_sec_bdr {
 .aside_tab_nav ul li:last-child {
   margin-bottom: 0;
 }
-
 .aside_tab_nav ul li a {
   color: var(--white);
   font-family: var(--industry);
@@ -1928,7 +1920,6 @@ main section.solution_sec_bdr {
   text-transform: uppercase;
 
 }
-
 .active_one {
   color: var(--sky) !important;
   position: relative;
@@ -1944,9 +1935,6 @@ main section.solution_sec_bdr {
   transform: translateY(-50%);
   top: 50%;
 }
-
-
-
 /* aside_tab_nav end */
 
 /* aside main */
@@ -2063,11 +2051,12 @@ main section.solution_sec_bdr {
 .acco_wrp {
   margin-top: 30px;
 }
-
+.mch_mrc_new{
+  margin-top: 100px;
+}
 .mngmnt_sec>h2 {
   margin-top: 30px;
 }
-
 .mngmnt_sec>p {
   font-size: 16px;
   line-height: 28px;
@@ -2128,7 +2117,7 @@ main section.solution_sec_bdr {
 }
 
 .acco_body ul li {
-  list-style-type: disc;
+  list-style-type: disc;    
 }
 
 .mch_mre_sec h2 {
@@ -2184,7 +2173,7 @@ main section.solution_sec_bdr {
   color: var(--gray);
   background-color: var(--stone-light);
   border: none;
-  text-transform: uppercase;
+  text-transform: uppercase; 
   height: 100%;
 }
 
@@ -2428,5 +2417,12 @@ margin-left: 200px;
 
 
 .case_study_new_inr {
-  padding-top: 100px;
+  padding-top: 50px;
+  border-top: 1px solid var(--sky_new);
+  margin-top: 70px;
+}
+.our_resourse{
+  border-top: 1px solid var(--sky_new);
+  padding-top: 50px !important;
+  margin-top: 50px;
 }
