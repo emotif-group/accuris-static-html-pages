@@ -148,8 +148,21 @@ body {
   overflow-x: hidden;
   padding-top: 78px;
 }
-
-h1 {
+h1{
+  font-size: 59px;
+  font-weight: 500;
+  line-height: 59px;
+  color: var(--black);
+  font-family: var(--gibson);
+}
+h2{
+  font-size: 40px;
+  line-height: 50px;
+  color: var(--black);
+  font-family: var(--gibson);
+  font-weight: 500;
+}
+.home_font h1 {
   font-size: 100px;
   line-height: 100px;
   color: var(--white);
@@ -157,7 +170,7 @@ h1 {
   font-weight: 500;
 }
 
-h2 {
+.home_font h2 {
   font-size: 59px;
   line-height: 64px;
   color: var(--black);
@@ -165,7 +178,7 @@ h2 {
 
 }
 
-h3 {
+.home_font h3 {
   font-size: 24px;
   line-height: 30px;
   color: var(--black);
