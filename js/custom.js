@@ -56,7 +56,6 @@ $(function() {
   scrNav();
 });
 
-
 function imgWindow() {
   var x = document.getElementById("fgt").autoplay;
   document.getElementById('fwe').style.display='none'; 
