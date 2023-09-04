@@ -1686,6 +1686,8 @@ transform: translateX(-50%);
 
 .case_stdy_new_hdng h2 {
   padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 38px;
 }
 
 main section.solution_sec_bdr {
@@ -2568,6 +2570,7 @@ margin-bottom: 30px;
     line-height: 30px;
     color: var(--blue);
     font-weight: 500;
+    font-family: var(--gibson);
 }
 .beiler_item .view_profile{
   font-size: 14px;
@@ -2580,5 +2583,154 @@ margin-bottom: 30px;
   font-size: 16px;
   line-height: 28px;
   color: var(--black);
-  padding-bottom: 20px;
 }
+.beiler_btn{
+  margin-top: 20px;
+}
+.beiler_wrap:not(:last-child){
+  margin-bottom: 30px;
+}
+/* gold fire start */
+.ss_cont h6{
+  font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: var(--black);
+    margin-top: 20px;
+}
+.infographic_wrap {
+  margin: 30px 0 60px;
+}
+.technical_question_wrap h4{
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  color: var(--gray);
+  font-family: var(--gibson);
+  padding-bottom: 30px;
+}
+.tech_quest span{
+  font-size: 30px;
+  line-height: normal;
+  font-weight: 600;
+  color: var(--blue);
+  font-family: var(--industry);
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-right: 45px;
+}
+.techqs h5{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--black);
+  font-family: var(--gibson);
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+.techqs p{
+  color: var(--gray);
+  margin-top: 10px;
+}
+.tech_quest{
+  display: flex;
+}
+.tech_quest:not(:last-child){
+  margin-bottom: 30px;
+}
+.known_accesible_hdng_wrap {
+  display: flex;
+}
+.known_accesible_hdng_wrap h4{
+  color: var(--black);
+  padding: 0;
+}
+.known_accesible_hdng_wrap span{
+  margin-right: 10px;
+}
+.known_accesible p{
+  color: var(--gray);
+  margin-top: 20px;
+}
+.known_accesible{
+  padding: 40px 30px;
+  background-color: var(--skylight);
+  margin-bottom: 30px;
+}
+.infographic_wrap img{
+  width: 100%;
+}
+.cognitive_inr li h5{
+  font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: var(--gibson);
+    color: var(--black);
+    margin-bottom: 10px;
+}
+.cognitive_inr li p{
+  margin: 0;
+}
+.cognitive_inr li:first-child{
+  margin-top: 30px;
+}
+.cognitive_inr li{
+  background-color: var(--skylight);
+  padding: 25px 20px;
+  margin-bottom: 3px;
+}
+.gold_fire_item h5{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--industry);
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.gold_fire_item h5 span{
+  margin-left: 15px;
+  height: 36px;
+  width: 36px;
+  display: inline-flex;
+  align-items: baseline;
+}
+.gold_fire_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.gold_fire_wrap .gold_fire_item{
+  flex: 0 0 auto;
+  max-width: 33.33%;
+  padding: 0 15px;
+}
+.customer_logo_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.customer_logo_wrap .customer_logo_item{
+  flex: 0 0 auto;
+  width: 25%;
+  padding: 0 15px;
+}
+.customer_logo_item img{
+  width: 100%;
+}
+.beiler_item h6{
+  font-size: 12px;
+  font-weight: 600;
+line-height: 18px;
+text-transform: uppercase;
+color: var(--gray);
+margin-bottom: 20px;
+}
+.gold_fire_btn_wrap {
+  text-align: center;
+}
+.case_study_new_wrap:not(:last-child){
+  margin-bottom: 30px;
+}
+/* gold fire end */
