@@ -1801,6 +1801,9 @@ main section.solution_sec_bdr {
 .ew_bnnr_img {
   min-height: 494px;
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .ew_bnnr_img img {
@@ -2426,6 +2429,7 @@ margin-left: 200px;
 }
 .ss_img_wrp img{
   width: 100%;
+  min-height: 330px;
 }
 .menu_wrapper li.active > a{
   color: var(--sky);
@@ -2832,6 +2836,7 @@ margin-bottom: 20px;
 }
 .cis_inr_item span:first-child{
   margin-right: 20px;
+  min-width: 24px;
 }
 .cis_inr_wrap {
   display: flex;
@@ -2844,7 +2849,7 @@ flex: 0 0 auto;
 width: 50%;
 padding: 0 15px;
 display: inline-flex;
-align-items: center;
+/* align-items: center; */
 }
 .cis_inr_item:not(:last-child){
   margin-bottom: 20px;
@@ -2909,3 +2914,203 @@ margin-left: 20px;
   text-align: center;
 }
 /* construction information service end */
+/* haystack gold start */
+.haystack p.fw-bold{
+  max-width: 856px;
+}
+.heystack_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.heystack_wrap .wfi_list{
+  flex: 0 0 auto;
+  width: 50%;
+  padding: 0 15px;
+}
+.heystack_wrap .sub_sec_para{
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+.heystack_wrap .wfi_list li::before{
+  top: 7px;
+  transform: none;
+}
+.heystack_count_wrap .dev_counter li{
+  width: 25%;
+  text-align: center;
+}
+.heystack_count_wrap .dev_counter{
+  margin-top: 50px;
+}
+.hey_stack_inr li{
+  font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+color: var(--gray);
+font-family: var(--poppins);
+position: relative;
+padding-bottom: 10px;
+}
+.hey_stack_inr li::after{
+  content: '';
+    position: absolute;
+    top: 7px;
+    left: -27px;
+    background-image: url(../images/acco_list_arrow.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+}
+.hey_stack_inr {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.hey_stack_tab_inr .tabs_itm_wrap>li{
+  width: 16.667%;
+}
+.hey_stack_tab_inr .tabs_bom li{
+  list-style: disc;
+  font-size: 16px;
+  line-height: 28px;
+}
+.rely_haystack_gold_wrap{
+  margin-top: 30px;
+}
+.rely_haystack_gold_item{
+  background-color: var(--skylight);
+  padding: 25px 20px;
+}
+
+.rely_haystack_gold_item h4{
+  font-weight: 500;
+line-height: 30px;
+font-size: 20px;
+color: var(--black);
+font-family: var(--gibson);
+padding-bottom: 10px;
+}
+.rely_haystack_gold_item li {
+  font-size: 14px;
+font-weight: 300;
+line-height: 26px;
+color: var(--black);
+position: relative;
+}
+.rely_haystack_gold_item li:not(:last-child){
+  padding-bottom: 10px;
+}
+.rely_haystack_gold_item li::after{
+  content: '';
+    position: absolute;
+    top: 7px;
+    left: -27px;
+    background-image: url(../images/acco_list_arrow.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+}
+.rely_haystack_gold_item ul{
+  margin-left: 26px;
+}
+.rely_haystack_gold_item:not(:last-child){
+  margin-bottom: 3px;
+}
+.rely_haystack_gold_item p{
+  padding-bottom: 10px;
+}
+.hay_stack_casestdy .case_study_new_inr{
+  padding-top: 0;
+  margin-top: 0;
+  border: none;
+}
+.heystack_count_wrap .dev_counter li:nth-child(-n + 3){
+  margin-bottom: 0;
+}
+/* haystack gold end */
+/* part change notice start */
+.part_change .dev_counter{
+  justify-content: center;
+}
+/* .part_change .dev_counter li{
+width: 33.33%;
+} */
+.part_change_inr .techqs p{
+  margin-top: 0;
+}
+.part_change_inr .tech_quest{
+  align-items: flex-start;
+}
+.part_change_inr li{
+  margin-top: 30px;
+}
+.part_change_inr li:not(:last-child){
+margin-bottom: 30px;
+}
+.wfi_list li:last-child{
+  margin-bottom: 0;
+}
+.pcn_list li{
+  font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+color: var(--gray);
+position: relative;
+padding-left: 10px;
+}
+.pcn_list li:not(:last-child){
+  margin-bottom: 10px;
+}
+.pcn_list li::after{
+  content: '';
+    position: absolute;
+    top: 7px;
+    left: -27px;
+    background-image: url(../images/acco_list_arrow.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+}
+ul.pcn_list {
+  margin-top: 30px;
+  margin-left: 24px;
+}
+.part_change_case_stdy{
+  border: none;
+  margin: 0;
+  padding-top: 20px;
+}
+/* part change notice end */
+/* book a demo */
+.bookdemo{
+  display: inline-flex;
+    min-width: 201px;
+    padding: 18px 30px;
+    justify-content: flex-end;
+    align-items: center;
+   background-color: var(--blue);
+   font-family: var(--poppins);
+font-size: 16px;
+font-weight: 500;
+color: var(--white);
+/* box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.10); */
+border: 1px solid transparent;
+stroke: var(--white);
+}
+.bookdemo:hover {
+  box-shadow: 0px 0px 0px 5px rgb(16 0 232 / 32%);
+}
+.bookdemo span{
+  margin-right: 10px;
+}
+.book_demo_wrap{
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9;
+  opacity: 0;
+}
+.side_btn .book_demo_wrap{
+  opacity: 1;
+}

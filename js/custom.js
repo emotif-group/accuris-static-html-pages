@@ -69,3 +69,14 @@ $(document).ready(function(){
     $("#add").show();
   });
 });
+
+
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(document).scrollTop() >300) {
+      $("body").addClass("side_btn");
+    } else {
+      $("body").removeClass("side_btn");
+    }
+  });
+});

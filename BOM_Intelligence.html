@@ -142,7 +142,7 @@
                                                         Engineering Workbench
                                                     </a>
                                                 </li>
-                                                <li class="active_inr">
+                                                <li>
                                                     <a href="#">
                                                         Goldfire AI
                                                     </a>
@@ -167,7 +167,7 @@
                                         <div class="mga_mnu_itm">
                                             <h6 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">data & Analytics</h6>
                                             <ul>
-                                                <li>
+                                                <li class="active_inr">
                                                     <a href="#">
                                                         BOM Intelligence
                                                     </a>
@@ -370,19 +370,27 @@
 <!-- book a demo button end -->
     <!-- banner -->
     <section class="ew_banner">
-        <div class="ew_bnnr_img" style="background-image: url(./images/glod_fire_bg.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
+        <div class="ew_bnnr_img" style="background-image: url(./images/BOM_Intelligence.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
             <!-- <img src="images/ew_banner.png" alt=""> -->
         </div>
         <div class="container">
             <div class="ew_cont_wrp">
                 <ul class="navigation">
                     <li><a href="">solutions</a></li>
-                    <li><a href="">goldfire</a></li>
+                    <li><a href="">BOM Intelligence</a></li>
                 </ul>
-                <h1>Effective answers to critical questions, in real time with Goldfire</h1>
-                <h6>Make better decisions faster with the Goldfire cognitive search platform</h6>
-                <p>On average, an engineer will consult 13 different sources before they find the answer they’re seeking. That adds up to about 42% of your engineering team’s time simply spent looking for siloed data. Engineers are innovators, builders, creators – their time is worth more.</p>
-                <p>Goldfire is a cognitive search platform built with artificial intelligence algorithms, helping you seamlessly find the answers they you need, in context, regardless of how or where your information is stored. Together, we’re making tomorrow safer, smarter, and more sustainable.</p>
+                <h1>Solve compliance & supply chain issues with BOM Intelligence</h1>
+                <h6>A trusted partner for 90% of the Fortune 100 companies</h6>
+                <p>Managing electronic components is more crucial than ever as obsolescence, part shortages, counterfeit products and environmental non-compliance risks continue to grow.</p>
+                <ul class="bom_listing">
+                    <li><span><img src="./images/bullet-top.svg" alt=""></span>Counterfeit parts alone cost manufacturers $7.5 billion annually in lost revenue.</li>
+                    <li><span><img src="./images/bullet-top.svg" alt=""></span>Obsolescence and supply chain risks can lead to a redesign, costing an average $80k per redesign.</li>
+                    <li><span><img src="./images/bullet-top.svg" alt=""></span>Collecting environmental compliance documentation costs an average of $2.50 per part.</li>
+                </ul>
+                <p>What’s more - many BOM analysis solutions in the market fall short because they use a narrow component database - making it time-intensive and strenuous to address these expansive challenges.</p>
+                <div class="bom_inr_cnt">
+                    <h3>Bill of Material Reporting & Analysis: BOM Intelligence solves these problems by integrating a project’s bill of materials with obsolescence management, Product Change Notifications (PCN), End-Of-Life (EOL) notices, and Supply Chain alerts – pulling data from the industry’s largest electronic components database of 1.1+ billion parts.</h3>
+                </div>
             </div>
         </div>
     </section>
@@ -430,17 +438,82 @@
                     <!-- what it for sec -->
                     <section class="wht_it_fir" id="sec1">
                         <div class="ss_img_wrp">
-                            <img src="images/gold_fire_one.png" alt="">
+                            <img src="images/bom_img_one.jpg" alt="">
                         </div>
                         <div class="ss_cont">
-                            <h2 class="sub_sec_hding">Built for engineers</h2>
-                            <h6>Goldfire is for you if you want to:</h6>
+                            <h2 class="sub_sec_hding">BOM Intelligence is for a team that wants to:</h2>
                             <ul class="wfi_list">
-                                <li class="sub_sec_para">Apply lessons learned from your entire organization</li>
-                                <li class="sub_sec_para">Avoid rework and un-necessary repetition of tasks</li>
-                                <li class="sub_sec_para">Uncover new trends</li>
-                                <li class="sub_sec_para">Make better decisions faster</li>
+                                <li class="sub_sec_para">Meet production targets on time and within budget</li>
+                                <li class="sub_sec_para">Get unbiased information and insights around all parts in your bill of materials through a flexible interface and workflow features</li>
+                                <li class="sub_sec_para">Support critical decisions around technology, obsolescence, and compliance throughout the product’s lifecycle</li>
+                                <li class="sub_sec_para">Access a database of 1.1B+ parts and tens of millions of NSNs and part numbers through integrations with Accuris’ <a href="javascript:void(0)">Haystack Gold</a> database</li>
                             </ul>
+                        </div>
+                        <div class="design_eng">
+                            <h2>Designed for engineering, compliance, and procurement</h2>
+                            <p class="sub_sec_para">Select a job to learn more:</p>
+                            <div class="tabs_wrap">
+                                <ul class="nav nav_tabs tabs_itm_wrap">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav_btn active" id="tab_1" data-bs-toggle="tab" data-bs-target="#tab_cnct_1" type="button" role="tab" aria-selected="true">Design Engineers</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav_btn" id="tab_2" data-bs-toggle="tab" data-bs-target="#tab_cnct_2" type="button" role="tab" aria-selected="false">Compliance Managers</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav_btn" id="tab_3" data-bs-toggle="tab" data-bs-target="#tab_cnct_3" type="button" role="tab" aria-selected="false">Component Engineers</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav_btn" id="tab_4" data-bs-toggle="tab" data-bs-target="#tab_cnct_4" type="button" role="tab" aria-selected="false">Procurement Officers</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="tab_cnct_1" role="tabpanel">
+                                        <h6>
+                                            <img src="./images/design_eng.svg" alt="document_icon">
+                                            Design Engineers
+                                        </h6>
+                                     <ul class="tabs_bom">
+                                        <li>To identify available parts that will meet the necessary requirements for a design’s functional specification, lifecycle and price</li>
+                                        <li>To accelerate both design cycle and product time to market</li>
+                                        <li>To introduce distinctive new products that anticipate changing consumer demands and capitalize upon emerging technologies</li>
+                                     </ul>
+                                    </div>
+                                    <div class="tab-pane fade" id="tab_cnct_2" role="tabpanel" aria-labelledby="tab_cnct_2">
+                                        <h6>
+                                            <img src="./images/design_eng.svg" alt="document_icon">
+                                            Design Engineers
+                                        </h6>
+                                     <ul class="tabs_bom">
+                                        <li>To identify available parts that will meet the necessary requirements for a design’s functional specification, lifecycle and price</li>
+                                        <li>To accelerate both design cycle and product time to market</li>
+                                        <li>To introduce distinctive new products that anticipate changing consumer demands and capitalize upon emerging technologies</li>
+                                     </ul>
+                                    </div>
+                                    <div class="tab-pane fade" id="tab_cnct_3" role="tabpanel" aria-labelledby="tab_cnct_3">
+                                        <h6>
+                                            <img src="./images/design_eng.svg" alt="document_icon">
+                                            Design Engineers
+                                        </h6>
+                                     <ul class="tabs_bom">
+                                        <li>To identify available parts that will meet the necessary requirements for a design’s functional specification, lifecycle and price</li>
+                                        <li>To accelerate both design cycle and product time to market</li>
+                                        <li>To introduce distinctive new products that anticipate changing consumer demands and capitalize upon emerging technologies</li>
+                                     </ul>
+                                    </div>
+                                    <div class="tab-pane fade" id="tab_cnct_4" role="tabpanel" aria-labelledby="tab_cnct_4">
+                                        <h6>
+                                            <img src="./images/design_eng.svg" alt="document_icon">
+                                            Design Engineers
+                                        </h6>
+                                     <ul class="tabs_bom">
+                                        <li>To identify available parts that will meet the necessary requirements for a design’s functional specification, lifecycle and price</li>
+                                        <li>To accelerate both design cycle and product time to market</li>
+                                        <li>To introduce distinctive new products that anticipate changing consumer demands and capitalize upon emerging technologies</li>
+                                     </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </section>
                     <!-- what it for sec end -->
@@ -448,199 +521,178 @@
                     <!-- Integrate sec -->
                     <section class="integrate" id="sec2">
                         <div class="ss_img_wrp">
-                            <img src="images/gold_fire_two.png" alt="">
+                            <img src="images/bom_img_two.jpg" alt="">
                         </div>
                         <div class="ss_cont">
-                            <h2>Find more relevant information and better answers to your technical questions</h2>
-                            <p>Goldfire uses natural language processing to read, understand, and learn from your data so it can give you a relevant answer in context, making it easier for you to find a solution that actually works. It helps engineers see why things happen.</p>
-                            <div class="infographic_wrap">
-                                <img src="./images/Infographic.png" alt="">
-                            </div>
-                            <div class="technical_question_wrap">
-                                <h4>5 Steps to Answer Any Technical Question</h4>
-                                <div class="tech_quest">
-                                    <span>1.</span>
-                                    <div class="techqs">
-                                        <h5>Integrate Goldfire with your data</h5>
-                                        <p>Out of the box, Goldfire integrates with your internal and external systems so it can ingest and understand your data. Without any tagging or “teaching,” Goldfire handles any type of digital information that you have, in any place that it’s stored.</p>
-                                    </div>
-                                </div>
-                                <div class="tech_quest">
-                                    <span>2.</span>
-                                    <div class="techqs">
-                                        <h5>Ask Goldfire</h5>
-                                        <p>Use Goldfire to ask a question or search for information. That could be anything from learning about the lifespan of a smart phone battery to what the weight of an airplane wing is.</p>
-                                    </div>
-                                </div>
-                                <div class="tech_quest">
-                                    <span>3.</span>
-                                    <div class="techqs">
-                                        <h5>Get answers</h5>
-                                        <p>Next, Goldfire’s patented technology reads your query, understands the question’s full context and intent, and delivers the best fitting information – all in a matter of seconds. To do this, Goldfire asks itself a number of relevant questions behind the scenes and offers suggestions like advantages and disadvantages, additional relevant concepts, or even solutions from other industries that may work for you.</p>
-                                    </div>
-                                </div>
-                                <div class="known_accesible">
-                                    <div class="known_accesible_hdng_wrap">
-                                        <span><img src="./images/verify.svg" alt=""></span>
-                                        <h4>Known & Accessible</h4>
-                                    </div>
-                                    <p>Unlike AI powered chatbots on the market today – which can fabricate answers and spread misinformation – Goldfire results deliver the actual document containing the answer you are looking for, so the source of the information is known and accessible.</p>
-                                </div>
-                                <div class="tech_quest">
-                                    <span>4.</span>
-                                    <div class="techqs">
-                                        <h5>Sort & analyze</h5>
-                                        <p>Goldfire summarizes each returned result so you can easily recognize what you’re looking for. You can then sort the information in various ways, analyze it, and select what is most useful to your problem or question.</p>
-                                    </div>
-                                </div>
-                                <div class="tech_quest">
-                                    <span>5.</span>
-                                    <div class="techqs">
-                                        <h5>That’s it!</h5>
-                                        <p>Once you’ve found your information – you’re on your way! You can then download, save it for later, or share it with colleagues.</p>
-                                    </div>
-                                </div>
-                            </div>
+                            <h2>Your complete BOM solution</h2>
+                            <p>Oversee component and supplier risks, manage production lifecycles, and monitor parts availability, changes, and compliance with our complete BOM solution.</p>
                         </div>
-                  
+                        <ul class="bom_solution">
+                            <li>
+                                <div class="bom_item_inr">
+                                    <img src="./images/clock.svg" alt="">
+                                    <div class="bom_sln_txt">
+                                        <h6>Time-Saving, 1-Step BOM Imports</h6>
+                                        <p>Upload your BOM in a single step with customized import configurations</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li> <div class="bom_item_inr">
+                                <img src="./images/data.svg" alt="">
+                                <div class="bom_sln_txt">
+                                    <h6>MegaNAV</h6>
+                                    <p>Easily select the workflow you need, from anywhere in the application</p>
+                                </div>
+                            </div>
+                            </li>
+                            <li> <div class="bom_item_inr">
+                                <img src="./images/chart-2.svg" alt="">
+                                <div class="bom_sln_txt">
+                                    <h6>Report Wizard</h6>
+                                    <p>Create and export standard and custom reports with ease</p>
+                                </div>
+                            </div>
+                            </li>
+                            <li> <div class="bom_item_inr">
+                                <img src="./images/notification-bing.svg" alt="">
+                                <div class="bom_sln_txt">
+                                    <h6>Alerts</h6>
+                                    <p>Set up automatic notifications for multiple users, view alerts for today, within the last 7 days, 30 days, 6 months or year, display discontinued, EOL, PCN, reinstatement, or counterfeit alerts</p>
+                                </div>
+                            </div>
+                            </li>
+                            <li> <div class="bom_item_inr">
+                                <img src="./images/box-search.svg" alt="">
+                                <div class="bom_sln_txt">
+                                    <h6>Part Search</h6>
+                                    <p>Search for a part by part number, attribute, manufacturer or keyword at any time at the top of any screen, save searches for future use</p>
+                                </div>
+                            </div>
+                            </li>
+                            <li> <div class="bom_item_inr">
+                                <img src="./images/arrow-2.svg" alt="">
+                                <div class="bom_sln_txt">
+                                    <h6>Compare Parts</h6>
+                                    <p>Compare up to 10 parts, evaluate side-by-side with the differences highlighted</p>
+                                </div>
+                            </div>
+                            </li>
+                            <li> <div class="bom_item_inr">
+                                <img src="./images/grid-8.svg" alt="">
+                                <div class="bom_sln_txt">
+                                    <h6>Datagrids</h6>
+                                    <p>Customize your part search results display, link to related risk, part and manufacturer information, export all or portions of the data</p>
+                                </div>
+                            </div>
+                            </li>
+                            <li> <div class="bom_item_inr">
+                                <img src="./images/element-equal.svg" alt="">
+                                <div class="bom_sln_txt">
+                                    <h6>BOM Dashboard</h6>
+                                    <p>See a graphical representation of your BOM’s health—parts, manufacturers and lifecycle status</p>
+                                </div>
+                            </div>
+                            </li>
+                            <li> <div class="bom_item_inr">
+                                <img src="./images/document-forward.svg" alt="">
+                                <div class="bom_sln_txt">
+                                    <h6>Research Request</h6>
+                                    <p>Submit a question for our experts to answer, request that parts be added to the database</p>
+                                </div>
+                            </div>
+                            </li>
+                            <li> <div class="bom_item_inr">
+                                <img src="./images/global-search.svg" alt="">
+                                <div class="bom_sln_txt">
+                                    <h6>Context-Sensitive and Other Help Options</h6>
+                                    <p>Access fully searchable electronic help system, page-specific instruction panels and context-sensitive help on each page</p>
+                                </div>
+                            </div>
+                            </li>
+                            <li> <div class="bom_item_inr">
+                                <img src="./images/user-tag.svg" alt="">
+                                <div class="bom_sln_txt">
+                                    <h6>Customer Support/Training</h6>
+                                    <p>Access support and training upon request</p>
+                                </div>
+                            </div>
+                            </li>
+                        </ul>
                     </section>
                     <!-- what it for sec end -->
                     <section class="mngmnt_sec" id="sec3">
                         <div class="solution_mask_img">
-                            <img src="./images/gold_fire_three.png" alt="">
+                            <img src="./images/bom_img_three.jpg" alt="">
                         </div>
-                        <div class="ss_cont">
-                            <h2>Your complete cognitive search solution</h2>
-                            <h6>Built for a smarter, more sustainable tomorrow with a fully loaded feature set.</h6>
-                            <ul class="cognitive_inr">
-                                <li>
-                                    <h5>Patented research technology</h5>
-                                    <p>Assists in knowledge discovery by finding causes and effects, definitions, parts, functions, and much more – all behind the scenes, so you don’t have to.</p>
-                                </li>
-                                <li>
-                                    <h5>Over 106M patents & 79M documents</h5>
-                                    <p>Exclusive access to curated patents and contents.</p>
-                                </li>
-                                <li>
-                                    <h5>World-class artificial intelligence technologies</h5>
-                                    <p>Machine learning and natural language processing technologies that ingest, understand, organize, and query content from internal and external data sources. (No tagging or teaching necessary!)</p>
-                                </li>
-                                <li>
-                                    <h5>Custom application building</h5>
-                                    <p>Seamlessly connect, communicate, and develop with our API.</p>
-                                </li>
-                                <li>
-                                    <h5>Enterprise system connections</h5>
-                                    <p>Infuse our AI technology into your existing content applications like SharePoint, CMS, DMS, and PLM applications. We have over 20 pre-built connectors and if your system needs something additional, we’ll create a custom one for you.</p>
-                                </li>
-                            </ul>
-                        </div>
+                        <h2>Rely on BOM Intelligence to:</h2>
+                        <ul class="wfi_list">
+                            <li class="sub_sec_para">Receive Supply Chain alerts with Price, Inventory, and Lead Time trend analysis</li>
+                            <li class="sub_sec_para">Get the latest life cycle status and predictions for 1.1+ billion electronic components</li>
+                            <li class="sub_sec_para">Access the most accurate Form-Fit-Function alternates</li>
+                            <li class="sub_sec_para">Manage compliance, obsolescence, and at-risk components with PCN and EOL alerts</li>
+                            <li class="sub_sec_para">Differentiate products faster, optimize inventory, and avoid costly interruptions</li>
+                            <li class="sub_sec_para">Satisfy requirements for functionality, lifecycle, price and compliance</li>
+                        </ul>
                     </section>
+
+    
                     <section id="sec5" class="bom_case_stdy">
                         <div class="trustrated_inr">
                             <div class="solution_mask_img">
-                                <img src="./images/gold_fire_four.png" alt="">
-                            </div>
-                            <div class="trustrated_hdng">
-                                <h2>Rely on Goldfire to:</h2>
-                            </div>
-                            <div class="gold_fire_wrap">
-                                <div class="gold_fire_item">
-                                    <h5>Boost Productivity<span><img src="./images/status-up.svg" alt=""></span></h5>
-                                    <p>Avoid rework and reinvention by unlocking unstructured data to leverage lessons of the past.</p>
-                                </div>
-                                <div class="gold_fire_item">
-                                    <h5>Discover Insights<span><img src="./images/star.svg" alt=""></span></h5>
-                                    <p>Get a competitive edge by uncovering trends in internal and external knowledge.</p>
-                                </div>
-                                <div class="gold_fire_item">
-                                    <h5>Streamline Decision Making<span><img src="./images/clipboard-tick.svg" alt=""></span></h5>
-                                    <p>Make better decisions faster with research assistance and exclusive content access.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </section>
-                    <section id="sec6">
-                        <div class="trustrated_inr">
-                            <div class="solution_mask_img">
-                                <img src="./images/gold_fire_five.png" alt="">
+                                <img src="./images/bom_img_four.jpg" alt="">
                             </div>
                             <div class="trustrated_hdng">
                                 <h2>Trusted by over 6,000 global customers</h2>
                             </div>
-                            <div class="customer_logo_wrap">
-                                <div class="customer_logo_item">
-                                    <img src="./images/Customer_logo_one.svg" alt="">
+                            <div class="trustrated_inr_cnt">
+                                <div class="trustrated_inr_itm">
+                                    <img src="./images/quote-up.svg" alt="">
+                                    <h5>Our customers rely on us to be a traffic light, to let them know the health of their bill of materials. Accuris is one of our top three strategic advantages to stay competitive. Essentially, we’re providing our customers an insurance policy. By understanding – very acutely – product lifecycle, we can collaborate with our customers on their products and design.</h5>
+                                    <div class="trst_inr_itm_lft">
+                                        <h6><span>Director of Supply Chain</span>IEC Electronics Corp
+                                            </h6>
+                                    </div>
                                 </div>
-                                <div class="customer_logo_item">
-                                    <img src="./images/Customer_logo_two.svg" alt="">
-                                </div>
-                                <div class="customer_logo_item">
-                                    <img src="./images/Customer_logo_three.svg" alt="">
-                                </div>
-                                <div class="customer_logo_item">
-                                    <img src="./images/Customer_logo_four.svg" alt="">
+                                <div class="trustrated_inr_itm">
+                                    <img src="./images/quote-up.svg" alt="">
+                                    <h5>With the Accuris data, we can gain a true picture of the composition of the product from top to bottom, so we can instantly and confidently tell the import/export country and customers whether or not we comply. We reduced delivery time of compliance documentation about RoHS and REACH from weeks to less than 2 days. That’s an estimated 86% increase in efficiency.</h5>
+                                    <div class="trst_inr_itm_lft">
+                                        <h6><span>Data & Business System Manager</span>Trimble</h6>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
                         <div class="case_study_new_inr">
                             <h4>Case Studies</h4>
                             <div class="case_study_new_wrap">
                                 <div class="case_study_new_item">
-                                    <img src="./images/gold_fire_case_one.png" alt="">
+                                    <img src="./images/bom_case_study_one.png" alt="">
                                 </div>
                                 <div class="case_study_new_item">
                                     <div class="case_stdy_new_hdng">
-                                        <h2>Saving lives by innovating blood bank technology</h2>
+                                        <h2>Trimble increases efficiency 86% for management of tens of thousands of components</h2>
                                         <div class="case_study_inr_btn_wrap">
                                             <a href="javascript:void(0)" class="tag_button">Electronics<img
-                                                    src="./images/battery-charging_new.svg"></a>
-                                            <a href="javascript:void(0)" class="tag_button">Medical Devices<img src="./images/health_new.svg"></a>
-                                        </div>
-                                        <p>Immucor, Inc’s technology saves millions of lives across the world. When hospitals turned to them asking for new and innovative blood bank solutions, they knew they had to act fast.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="case_study_new_wrap">
-                                <div class="case_study_new_item">
-                                    <img src="./images/gold_fire_case_two.png" alt="">
-                                </div>
-                                <div class="case_study_new_item">
-                                    <div class="case_stdy_new_hdng">
-                                        <h2>One step further in space</h2>
-                                        <div class="case_study_inr_btn_wrap">
-                                            <a href="javascript:void(0)" class="tag_button">Aerospace & Defense<img src="./images/airplane.svg"></a>
-                                        </div>
-                                        <p>NASA turned to Goldfire when their technical team realized they were hitting dead ends while searching for insights and information from past projects.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="case_study_new_wrap">
-                                <div class="case_study_new_item">
-                                    <img src="./images/gold_fire_case_three.png" alt="">
-                                </div>
-                                <div class="case_study_new_item">
-                                    <div class="case_stdy_new_hdng">
-                                        <h2>Making air conditioning sustainable</h2>
-                                        <div class="case_study_inr_btn_wrap">
-                                            <a href="javascript:void(0)" class="tag_button">Energy<img src="./images/sun.svg"></a>
+                                                    src="./images/battery-charging.svg"></a>
                                             <a href="javascript:void(0)" class="tag_button">Manufacturing<img src="./images/box.svg"></a>
                                         </div>
-                                        <p>NASA turned to Goldfire when their technical team realized they were hitting dead ends while searching for insights and information from past projects.</p>
+                                        <p>This provider of location-based technologies ensures compliance with complex EHS regulations and avoids disruptions to its supply chain with BOM Intelligence. Managers instantly find data on thousands of parts each quarter versus manually looking up each one, reducing delivery time of RoHS and REACH documentation from weeks to under 2 days – an 86% increase in efficiency</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="case_study_new_wrap">
                                 <div class="case_study_new_item">
-                                    <img src="./images/gold_fire_case_four.png" alt="">
+                                    <img src="./images/bom_case_study_two.png" alt="">
                                 </div>
                                 <div class="case_study_new_item">
                                     <div class="case_stdy_new_hdng">
-                                        <h2>Engineering for a Sustainable Future</h2>
+                                        <h2>Texas Instruments enhances customer service by expanding cross-references from 100K to 2M</h2>
                                         <div class="case_study_inr_btn_wrap">
-                                            <a href="javascript:void(0)" class="tag_button">Energy<img src="./images/sun.svg"></a>
+                                            <a href="javascript:void(0)" class="tag_button">Electronics<img
+                                                    src="./images/battery-charging.svg"></a>
+                                            <a href="javascript:void(0)" class="tag_button">Manufacturing<img src="./images/box.svg"></a>
                                         </div>
-                                        <p>The solar energy market has grown exponentially in the past decade, but the industry still faces challenges and growing pains. A surprisingly tricky problem is impacting the conversion of solar energy in farms around the world. Learn how our client, a leading renewable energy corporation, leveraged our AI-powered tech to find the answer, turning to the world of plants for help.</p>
+                                        <p>One of the world’s premier semiconductor companies increased the number of cross references in its parts database from 100,000 to nearly 2 million. In doing so, the company boosted results of its parts with the lowest searches by 52% and helped its customers find alternatives for obsolete parts so they can avoid the need to redesign products.</p>
                                     </div>
                                 </div>
                             </div>
@@ -648,50 +700,20 @@
                     </section>
                     <section id="sec8" class="our_resourse">
                         <div class="explore_hdng">
-                            <h2>The Goldfire team is here for you</h2>
+                            <h2>Here to support your success</h2>
                         </div>
                         <div class="beiler_wrap">
                             <div class="beiler_item">
-                                <div class="beiler_item_img"><img src="./images/gold_fire_img_one.png" alt=""></div>
+                                <div class="beiler_item_img"><img src="./images/beiler.png" alt=""></div>
                             </div>
                             <div class="beiler_item">
-                                <h3>Evan Shelby</h3>
-                               <h6>Goldfire Product Manager</h6>
-                                <p>This is Evan. Evan is our go-to guy for all things product on Goldfire. Outside of work you’ll likely find him running (he’s a New York City Marathon finisher) or volunteering with the Yankee Golden Retriever Rescue.</p>
+                                <h3>Ross Beiler</h3>
+                                <a href="javascript:void(0)" class="view_profile">View Profile</a>
+                                <p>Ross has over 30 years of experience managing decision support tools used by electrical design engineers, component engineers, supply chain, compliance, and sustainment professionals. The tools support solutions for engineering, supply chain, and procurement users for numerous customers in the Hi-Tech, Telecommunications, Aerospace and Defense, Automotive, Medical, Manufacturing, and Process industries. His skills include Agile product owner, product management, project management and solution architecture of parts management systems, enterprise information systems, decision support systems, component and supplier management, component obsolescence, component environmental compliance, strategic sourcing, and workflow process automation. Ross technical background includes information technology, product development, database design and management, system administration, systems engineering, and electrical design.</p>
+                                <div class="beiler_btn">
+                                    <a href="" class="global_btn">Contact Ross <i class="fa-solid fa-chevron-right"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="beiler_wrap">
-                            <div class="beiler_item">
-                                <div class="beiler_item_img"><img src="./images/gold_fire_img_two.png" alt=""></div>
-                            </div>
-                            <div class="beiler_item">
-                                <h3>Hajime Kawano</h3>
-                               <h6>Regional Manager, APAC</h6>
-                                <p>Hajime Kawano is our Regional Manager in the APAC area, based out of Tokyo. He loves to be outside – whether that’s playing goalie for the local soccer team or just taking a stroll with his wife and their 13-year-old golden retriever. They love learning about history and often take day trips (of course with their dog!) to some of their favorite historic shrines.</p>
-                            </div>
-                        </div>
-                        <div class="beiler_wrap">
-                            <div class="beiler_item">
-                                <div class="beiler_item_img"><img src="./images/gold_fire_img_three.png" alt=""></div>
-                            </div>
-                            <div class="beiler_item">
-                                <h3>Peter Suhorukov</h3>
-                               <h6>Goldfire Product Owner</h6>
-                                <p>Meet Peter! Peter works on our research and development team in Poland. In his free time, he loves to travel, read, and spend time with his wife, three kids and of course their family cat.</p>
-                            </div>
-                        </div>
-                        <div class="beiler_wrap">
-                            <div class="beiler_item">
-                                <div class="beiler_item_img"><img src="./images/gold_fire_img_four.png" alt=""></div>
-                            </div>
-                            <div class="beiler_item">
-                                <h3>Tom Baker</h3>
-                               <h6>Director of Sales, America</h6>
-                                <p>When Tom’s not helping current and future customers find ways to work smarter with Goldfire, he’s out hitting the slopes. Tom’s a PSIA-certified (Professional Ski Instructors of America) Alpine Ski School Trainer and even helped choreograph the skiing scenes for Arnold Schwarzenegger’s 1994 film “True Lies.” When it’s too warm to ski, he’s out camping, boating, biking and exploring with his family.</p>
-                            </div>
-                        </div>
-                        <div class="gold_fire_btn_wrap">
-                            <a href="javascript:void(0)" class="global_btn">Contact the Team <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </section>
                 </div>
