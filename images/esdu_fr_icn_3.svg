@@ -1,0 +1,14 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="vuesax/linear/driver">
+<g id="driver">
+<path id="Vector" d="M19.3198 10.5H4.68977C3.20977 10.5 2.00977 9.29002 2.00977 7.82002V5.19002C2.00977 3.71002 3.21977 2.51001 4.68977 2.51001H19.3198C20.7998 2.51001 21.9998 3.72002 21.9998 5.19002V7.82002C21.9998 9.29002 20.7898 10.5 19.3198 10.5Z" stroke="#FF3E39" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M19.3198 22.5H4.68977C3.20977 22.5 2.00977 21.29 2.00977 19.82V17.19C2.00977 15.71 3.21977 14.51 4.68977 14.51H19.3198C20.7998 14.51 21.9998 15.72 21.9998 17.19V19.82C21.9998 21.29 20.7898 22.5 19.3198 22.5Z" stroke="#FF3E39" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M6 5.5V7.5" stroke="#FF3E39" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M10 5.5V7.5" stroke="#FF3E39" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M6 17.5V19.5" stroke="#FF3E39" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M10 17.5V19.5" stroke="#FF3E39" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M14 6.5H18" stroke="#FF3E39" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M14 18.5H18" stroke="#FF3E39" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>
