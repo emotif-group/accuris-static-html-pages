@@ -1147,17 +1147,19 @@ position: relative;
 
 .crd_itm {
   /* background-color: var(--stone-light); */
-  /* padding-bottom: 300px; */
+  padding-bottom: 300px;
   position: relative;
+  height: 100%;
 }
-
+.crd_wrp{
+  height: 100%;
+}
 .crd_btm_img_wrp {
   /* background-color: var(--white); */
-  /* position: absolute; */
-  /* bottom: 30px; */
-  /* left: 0; */
-  /* right: 0; */
-  margin-top: -30px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
 }
 
 .crd_btm_img_cncr {
@@ -1178,6 +1180,7 @@ position: relative;
 .crd_tp_cnct {
   padding: 20px 20px 50px 20px;
   background-color: var(--stone-light);
+  height: 100%;
 }
 
 .crd_tp_cnct h3 {
@@ -3280,6 +3283,7 @@ stroke: var(--white);
 
 .indsrty_slider_sec{
   padding-top: 100px;
+  overflow: hidden;
 }
 
 .indsrty_fw_slider {
