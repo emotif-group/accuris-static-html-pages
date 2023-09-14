@@ -86,7 +86,7 @@ $(document).ready(function(){
 
 $('.indsrty_fw_slider').slick({
   dots: false,
-  infinite: true,
+  infinite: false,
   speed: 600,
   slidesToShow: 3,
   slidesToScroll: 1,
