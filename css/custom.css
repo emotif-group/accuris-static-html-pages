@@ -1194,6 +1194,7 @@ position: relative;
 .crd_tp_cnct h3 {
   padding-bottom: 10px;
   padding-right: 100px;
+  font-weight: 500;
 }
 
 .flw_btn_wrp {
@@ -3885,4 +3886,207 @@ h4{
 .esdu_img_wrap .prntnr_lst_wrp li{
   flex: 1;
     width: auto;
+}
+/* solution home */
+.solution__home{
+  padding-top: 60px;
+  position: relative;
+}
+.solution_home_inr{
+  text-align: center;
+  font-size: 15px;
+  line-height: 27px;
+}
+.solution_home_inr h6{
+  font-family: var(--industry);
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+text-transform: uppercase;
+color: var(--gray);
+padding-bottom: 20px;
+}
+.solution_home_inr h1 {
+  padding-bottom: 20px;
+  max-width: 864px;
+  margin: 0 auto;
+}
+.optimize_stream .optimize_stream_list{
+  padding-bottom: 70px;
+}
+
+.solution_work_hdng {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.solution_work_hdng h2{
+  color: var(--gray);
+}
+.crd_tp_cnct h6{
+  font-size: 14px;
+font-weight: 600;
+line-height: 26px;
+color: var(--blue);
+text-transform: uppercase;
+padding-bottom: 15px;
+}
+.sltn_wokr_inr .crd_tp_cnct p{
+  padding-bottom: 15px;
+}
+.learn_more a{
+  color: var(--red);
+  text-decoration: underline;
+}
+.learn_more{
+  padding: 15px 0;
+}
+.sltn_wokr_inr .crd_tp_cnct{
+  display: flex;
+  flex-direction: column;
+}
+.sltn_wokr_inr .crd_tp_cnct p{
+  flex-grow: 1;
+}
+.sltn_wokr_inr .crd_wrp{
+  padding-bottom: 30px;
+}
+.sltn_wokr_inr .row .col-md-4:nth-last-child(-n + 3) .card_wrap{
+  padding-bottom: 0;
+}
+.soln_data_anltcs .crd_tp_cnct h3{
+  padding-right: 0;
+}
+.digital_item{
+  background-color: var(--stone-light);
+  padding: 30px 20px 50px;
+  height: 100%;
+}
+.digital_item h6{
+  font-family: var(--industry);
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+text-transform: uppercase;
+padding: 15px 0;
+}
+.digital_item h3{
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.digital_libraries{
+  padding-bottom: 150px;
+}
+.digital_cnt .row .col-md-4{
+  margin-bottom: 30px;
+}
+.digital_cnt .row .col-md-4:nth-last-child(-n + 3){
+  margin-bottom: 0;
+}
+.digital_item_hdng{
+  background-color: var(--red);
+  height: 100%;
+  padding: 40px
+}
+.digital_item_hdng h2{
+  margin-right: 100px;
+  color: var(--white);
+}
+.digital_item p{
+  max-width: 280px;
+}
+.sol_home_bnr .ew_bnnr_img{
+  min-height: 329px;
+}
+.solution__home .container{
+  position: relative;
+}
+.solution__home .container::after{
+  position: absolute;
+  content: '';
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/Solution_banner_img_lft.svg);
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: -671px;
+}
+.sol_home_bnr{
+  position: relative;
+}
+/* .sol_home_bnr::after {
+  position: absolute;
+  content: '';
+  top: 93px;
+  right: -87%;
+  bottom: 0;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: contain;
+  background-image: url(../images/Solution_banner_img_r8.svg);
+  width: 100%;
+} */
+.solution__home .container::before{
+  position: absolute;
+    content: '';
+    top: -395px;
+    right: -95%;
+    bottom: 0;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: contain;
+    background-image: url(../images/Solution_banner_img_r8.svg);
+    width: 100%;
+}
+/* industry home */
+.industry_home_inr{
+  padding-bottom: 146px;
+}
+.industry_home_itm_img img{
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+.industry_home_itm_txt {
+  background-color: var(--stone-light);
+  padding: 90px 20px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.industry_home_itm_img {
+  max-width: 320px;
+  margin: 0 auto;
+  margin-bottom: -67px;
+  position: absolute;
+  top: -136px;
+  left: 0;
+  right: 0;
+}
+.industry_home_itm_txt h3{
+  font-weight: 500;
+  padding-bottom: 15px;
+  max-width: 250px;
+}
+.industry_home_itm_txt p{
+  padding-bottom: 15px;
+  flex-grow: 1;
+}
+.int_home_itm_btn a{
+  min-width: 136px;
+}
+.industry_home_item {
+  height: 100%;
+  position: relative;
+}
+.industry_home_inr .row .col-md-4{
+  margin-bottom: 175px;
+}
+.industry_home_inr .row .col-md-4:nth-last-child(-n + 3){
+  margin-bottom: 0;
+}
+.industry_home{
+  padding-bottom: 175px;
 }
