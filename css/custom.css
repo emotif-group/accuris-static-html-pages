@@ -4090,3 +4090,241 @@ padding: 15px 0;
 .industry_home{
   padding-bottom: 175px;
 }
+.industry_home .container::before{
+  top: -372px;
+  right: -93%;
+}
+.industry_home .container::after{
+  top: 110px;
+  margin-left: -631px;
+}
+.industry_home_inr .container{
+  position: relative;
+}
+.industry_home_inr .container::after{
+  position: absolute;
+  position: absolute;
+  content: '';
+  top: 160px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/Solution_banner_img_lft.svg);
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 570px;
+  transform: rotatex(-180deg);
+  margin-right: -595px;
+  z-index: -1;
+}
+/* parts cntnt service start */
+.parts_cnt_serv_inr_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  background-color: var(--stone-light);
+  margin-top: 30px;
+}
+.parts_cnt_serv_inr_item{
+  flex: 0 0 auto;
+  max-width: 50%;
+  padding: 25px 20px;
+}
+.parts_cnt_serv_inr_item p:first-child{
+  margin-top: 0;
+}
+.parts_cnt_serv_inr_item p b{
+  font-weight: 700;
+}
+.parts_cnt_serv_inr_item p{
+margin-top: 20px;
+}
+.parts_cnt_tab .tabs_itm_wrap li{
+  width: 33.33%;
+}
+.tabs_bom li{
+  list-style: disc;
+}
+.parts_cnt_tab .tabs_bom{
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 28px;
+}
+.parts_cnt_tab .acco_body .tabs_bom{
+  margin-top: 10px;
+}
+.parts_tab_acco {
+  margin-top: 10px;
+}
+.other_use_case h2{
+  margin-bottom: 30px;
+}
+.other_use_case p{
+  padding-bottom: 15px;
+}
+.other_use_case_wrap {
+  display: flex;
+  margin-left: -2.5px;
+  margin-right: -2.5px;
+  flex-wrap: wrap;
+}
+.other_use_case_wrap .other_use_case_item{
+  flex: 0 0 auto;
+  width: 25%;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+.other_use_case_itm_cnt{
+  background-color: var(--skylight);
+  padding: 20px 25px;
+  height: 100%;
+}
+.other_use_case_itm_cnt h4{
+  margin-bottom: 10px;
+  min-height: 60px;
+}
+.other_use_case_itm_cnt ul li{
+  font-size: 12px;
+  line-height: 22px;
+  color: var(--black);
+  font-weight: 300;
+  font-family: var(--poppins);
+}
+.other_use_case_itm_cnt ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.benifit_cnt .hey_stack_inr{
+  margin-top: 0;
+}
+/* parts cnt service end */
+
+/* sdo_start */
+
+.sdo_home{
+  padding: 60px 0 100px; 
+}
+
+.sdo_cnct_wrp{
+  max-width: 724px;
+  margin: 0 auto;
+  padding-top: 30px;
+  position: relative;
+}
+
+.sdo_home .container{
+  position: relative;
+}
+
+.sdo_home .container::before{
+  position: absolute;
+  content: "";
+  width: 700px;
+  height: 510px;
+  top: -424px;
+  left: 100%;
+  margin-left: 40px;
+  background-image: url(../images/sdo_bnnr_shp.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.sdo_home .container::after{
+  position: absolute;
+  content: "";
+  width: 700px;
+  height: 510px;
+  top: 65px;
+  right: 100%;
+  margin-right: 60px;
+  background-image: url(../images/sdo_sec_shp.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.sdo_cnct_wrp .sdo_itm_wrp:not(:last-child){
+  padding-bottom: 80px;
+}
+
+.sdo_cnct_wrp .sdo_itm_wrp > p{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.sdo_cnct_wrp .sdo_itm_wrp > h4{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    color: var(--gray);
+    font-family: var(--gibson);
+    padding-bottom: 30px;
+}
+
+.tirtiary_box{
+  padding: 25px 20px;
+  background-color: var(--skylight);
+}
+
+.tirtiary_box > * + *{
+  margin-top: 15px;
+}
+
+.tirtiary_box a{
+  min-width: auto;
+}
+
+.sdo_home  .indsty_sol_lst_wrp{
+  padding-top: 0;
+  border-top: none;
+}
+
+.sdo_home .indsty_sol_lst_wrp h2{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sdo_home .indsty_sol_lst_wrp .global_btn{
+  min-width: 125px;
+  height: 41px;
+}
+
+.tirtiary_box.side_btn{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.tirtiary_box.side_btn .cnct_wrp {
+  padding-right: 15px;
+  margin-right: auto;
+}
+
+.tirtiary_box.side_btn .cnct_wrp h4{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px; 
+  margin-bottom: 15px;
+}
+
+.tirtiary_box.side_btn > a{
+  margin-top: 0;
+}
+
+.sdo_cnct_wrp .sdo_itm_wrp .our_resourse{
+  margin-top: 0;
+}
+
+.sdo_home .ohis_explore + .ohis_explore{
+  margin-top: 30px;
+}
+
+/* sdo_end */
