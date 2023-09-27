@@ -1786,10 +1786,12 @@ main section.solution_sec_bdr {
   align-items: end;
   border-bottom: 1px solid var(--black);
   padding-bottom: 20px;
+  align-items: center;
 }
 
 .work_flow_inr_hdng span {
   margin-right: 10px;
+  min-width: 24px;
 }
 
 .work_flow_inr_itm ul li {
@@ -1800,15 +1802,12 @@ main section.solution_sec_bdr {
   min-height: 100px;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .work_flow_inr_itm ul li:nth-child(odd) {
   background-color: var(--gray-new);
 }
-
-
-
-
 /* ew banner */
 .ew_bnnr_img {
   min-height: 494px;
@@ -4419,3 +4418,40 @@ display: inline-block;
 .sltn_wokr_inr .crd_tp_cnct h3{
 padding-right: 0;
 }
+/* 26.09.23 */
+/* parts api */
+.parts_api_list {
+  margin-top: 30px;
+}
+.parts_api_list .parts_api_table_itm{
+  max-width: 20%;
+}
+.parts_api_list .work_flow_inr_itm{
+  max-width: 40%;
+}
+.parts_api_list .work_flow_inr_itm li p{
+  padding-bottom: 15px;
+}
+.parts_api_list .work_flow_inr_hdng h6{
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--black);
+  font-family: var(--poppins);
+  
+}
+.parts_api_list .parts_api_table_itm .work_flow_inr_hdng{
+  padding-bottom: 23px;
+}
+.parts_api_list .parts_api_table_itm ul li{
+  background: none;
+  color: var(--gray);
+  font-weight: 700;
+  padding: 0;
+}
+/* .esdu_seriecs h5{
+font-size: 28px;
+font-weight: 500;
+line-height: 34px;
+font-family: var(--gibson);
+color: var(--gray);
+} */
