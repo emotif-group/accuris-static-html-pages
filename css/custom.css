@@ -4448,10 +4448,93 @@ padding-right: 0;
   font-weight: 700;
   padding: 0;
 }
-/* .esdu_seriecs h5{
+.esdu_seriecs h5{
 font-size: 28px;
 font-weight: 500;
 line-height: 34px;
 font-family: var(--gibson);
 color: var(--gray);
-} */
+}
+
+/* engineering work bench html change */
+.cnt_hndg h5{
+  font-size: 16px;
+  font-family: var(--industry);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.cnt_hndg {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--black);
+  padding-bottom: 21px;
+}
+.cnt_wrap{
+  display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.cnt_wrap .cnt_itm{
+  flex: 0 0 auto;
+  width: 50%;
+  padding: 0 15px;
+}
+.cnt_hndg span{
+  min-width: 24px;
+  margin-right: 10px;
+}
+.cnt_para {
+  height: 100%;
+  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.cnt_para p{
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--black);
+  line-height: 20px;
+}
+.work_flow_new_wrap ul li:nth-child(even) .cnt_itm .cnt_para {
+  background: var(--skylight);
+}
+.parts_api_list .cnt_wrap .cnt_itm:first-child{
+  width: 20%;
+}
+.parts_api_list .cnt_wrap .cnt_itm{
+  width: 40%;
+}
+.parts_api_list .cnt_wrap .cnt_itm .cnt_type{
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.parts_api_list .cnt_wrap .cnt_itm .cnt_type p{
+  background: none;
+  color: var(--gray);
+  font-weight: 700;
+  padding: 0;
+}
+.parts_api_list li:first-child .cnt_wrap .cnt_itm:first-child .cnt_hndg{
+border: none;
+}
+.parts_api_list li:first-child .cnt_wrap .cnt_itm:first-child .cnt_hndg h5{
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--black);
+  font-family: var(--poppins);
+  text-transform: capitalize;
+}
+.parts_api_list .cnt_wrap .cnt_itm .cnt_para_new p:first-child{
+  margin-bottom: 20px;
+}
+.parts_api_list li:not(:first-child, :last-child){
+  margin-bottom: 10px;
+}
+.so_you_can_wrap .pcn_list{
+  margin-top: 0;
+}
