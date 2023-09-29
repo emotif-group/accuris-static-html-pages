@@ -4538,3 +4538,41 @@ border: none;
 .so_you_can_wrap .pcn_list{
   margin-top: 0;
 }
+
+/* 29-09-23 */
+
+.benefits_sec .bnfts_lists{
+  margin-top: 75px;
+}
+
+.bnfts_lists > ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.bnfts_lists > ul > li{
+  flex: 0 0 auto;
+  width: 50%;
+  padding: 0 20px;
+  display: flex;
+  align-items: flex-start;
+  color: var(--gray);
+  font-family: var(--poppins);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 28px;
+}
+
+.bnfts_lists > ul > li:nth-last-child(-n + 2){
+  margin-bottom: 0;
+}
+
+.bnfts_lists > ul > li > .icon_wrp{
+  min-width: 24px;
+  width: 24px;
+  margin-right: 28px;
+  text-align: center;
+}
