@@ -4618,3 +4618,139 @@ border: none;
 .hub_spot .actions input.hs-button:hover{
   box-shadow: 0px 0px 0px 5px var(--button-shadow);
 }
+/* about us page start */
+.about_bnr_cnt{
+  margin: 30px 0;
+}
+.about_bnr_cnt p{
+  margin-top: 20px;
+}
+.about_sec {
+  padding: 50px 0;
+  max-width: 1054px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -250px;
+}
+.about_inr ul {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--skylight);
+  padding: 25px 5px 35px 5px;
+  position: relative;
+}
+.about_inr ul::after{
+  position: absolute;
+  content: '';
+  top: 20px;
+  left: 0;
+  right: 0;
+  bottom: 35px;
+  width: 2px;
+  background-color: var(--blue);
+  margin: 0 auto;
+}
+.about_inr ul li {
+  flex: 0 0 auto;
+  width: 50%;
+  padding: 0 15px;
+  text-align: right;
+  margin-bottom: 30px;
+}
+.about_inr ul li:nth-child(even){
+  text-align: left;
+  margin-top: 45px;
+}
+.about_inr ul li h6{
+  font-size: 14px;
+  line-height: 24px;
+  font-family: var(--poppins);
+  color: var(--blue);
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+.about_inr ul li p{
+  font-size: 14px;
+  line-height: 24px;
+  font-family: var(--poppins);
+  font-weight: 400;
+  color: var(--black);
+}
+.about_inr ul li:nth-child(2){
+margin-top: 45px;
+}
+.about_inr ul li:last-child{
+  margin-bottom: 0;
+}
+.about_inr_btm .bnft_itm_wrp p{
+  font-weight: 700;
+  font-family: var(--poppins);
+}
+.about_btm_txt p{
+  font-size: 14px;
+  line-height: 24px;
+  font-family: var(--poppins);
+  font-weight: 400;
+  color: var(--black);
+}
+.about_btm_txt h6{
+  font-size: 14px;
+  line-height: 24px;
+  font-family: var(--poppins);
+  color: var(--blue);
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+.about_inr_btm {
+  text-align: center;
+  margin: 50px 0;
+}
+.about_inr_btm .bnft_itm_wrp{
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.about_inr_btm .bnft_itm_wrp p span{
+margin-top: 15px;
+}
+.about_para h6{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--blue);
+  font-family: var(--poppins);
+  font-weight: 700;
+  margin-top: 30px;
+}
+.about_bnr .ew_cont_wrp{
+  padding-bottom: 200px;
+}
+.our_culture_sec {
+  margin: 60px 0 170px;
+  text-align: center;
+}
+.our_culture_msg_hdng h2{
+  max-width: 295px;
+  margin: 0 auto;
+  font-weight: 400;
+  padding: 20px 0;
+}
+.our_culture_btn a{
+  min-width: 175px;
+}
+.sdo_img_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.sdo_img_wrap .sdo_img_item{
+  flex: 0 0 auto;
+  width: 25%;
+  padding: 0 15px;
+}
+.Sdo_img_sec {
+  margin: 80px 0 30px;
+}
+.sdo_img_item img {
+  width: 200px;
+}
+/* about us page end */
