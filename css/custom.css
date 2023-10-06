@@ -3714,7 +3714,7 @@ margin-bottom: 30px;
 }
 /* legal basic start */
 .legal_basic{
-  padding: 100px 0 195px;
+  padding: 100px 0 100px;
 }
 .legal_basic_hdng {
   padding: 30px 0;
@@ -3752,9 +3752,9 @@ font-family: var(--gibson);
 color: var(--black);
 padding-bottom: 25px;
 }
-.secondry_hdr p + p{
+/* .secondry_hdr p + p{
 padding-top: 30px;
-}
+} */
 .secondry_hdr p b{
   font-weight: 700;
 }
@@ -4754,3 +4754,7 @@ margin-top: 15px;
   width: 200px;
 }
 /* about us page end */
+/* legal page */
+.legal_wrap p{
+padding-bottom: 10px;
+}
