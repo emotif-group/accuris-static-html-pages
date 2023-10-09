@@ -4758,3 +4758,17 @@ margin-top: 15px;
 .legal_wrap p{
 padding-bottom: 10px;
 }
+
+/* 09.10.2023 */
+.electronic_part_mnge_btn_wrap .solid_btn{
+  min-width: 147px;
+}
+.electronic_suite_list .cis_inr_item span{
+  color: var(--red);
+}
+.electronic_parts_management_sec_wrap {
+  margin: 0 -15px;
+}
+.electronic_parts_management_sec_wrap .wfi_list{
+  padding: 0 15px;
+}
